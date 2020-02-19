@@ -1,0 +1,5028 @@
+{
+  "data_title": "fymap",
+  "data": {
+    "times": "截至2月19日17时31分",
+    "mtime": "2020-02-19 17:31:00",
+    "cachetime": "2020-02-19 17:32:39",
+    "gntotal": "74279",
+    "deathtotal": "2006",
+    "sustotal": "5248",
+    "curetotal": "14387",
+    "list": [
+      {
+        "name": "北京",
+        "ename": "beijing",
+        "value": "393",
+        "susNum": "0",
+        "deathNum": "4",
+        "cureNum": "145",
+        "adddaily": {
+          "conadd": "+6",
+          "deathadd": "+0",
+          "cureadd": "+23",
+          "conadd_n": 6,
+          "deathadd_n": 0,
+          "cureadd_n": 23
+        },
+        "city": [
+          {
+            "name": "东城区",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "东城区"
+          },
+          {
+            "name": "西城区",
+            "conNum": "52",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "西城区"
+          },
+          {
+            "name": "朝阳区",
+            "conNum": "58",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "朝阳区"
+          },
+          {
+            "name": "海淀区",
+            "conNum": "61",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "海淀区"
+          },
+          {
+            "name": "丰台区",
+            "conNum": "40",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "丰台区"
+          },
+          {
+            "name": "石景山区",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "石景山区"
+          },
+          {
+            "name": "门头沟区",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "门头沟区"
+          },
+          {
+            "name": "房山区",
+            "conNum": "16",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "房山区"
+          },
+          {
+            "name": "通州区",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "通州区"
+          },
+          {
+            "name": "顺义区",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "顺义区"
+          },
+          {
+            "name": "昌平区",
+            "conNum": "29",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "昌平区"
+          },
+          {
+            "name": "大兴区",
+            "conNum": "39",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "大兴区"
+          },
+          {
+            "name": "怀柔区",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "怀柔区"
+          },
+          {
+            "name": "密云区",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "密云区"
+          },
+          {
+            "name": "延庆区",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "延庆区"
+          },
+          {
+            "name": "外地来京人员",
+            "conNum": "26",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": ""
+          }
+        ]
+      },
+      {
+        "name": "湖北",
+        "ename": "hubei",
+        "value": "61682",
+        "susNum": "0",
+        "deathNum": "1921",
+        "cureNum": "9237",
+        "adddaily": {
+          "conadd": "+1693",
+          "deathadd": "+132",
+          "cureadd": "+1266",
+          "conadd_n": 1693,
+          "deathadd_n": 132,
+          "cureadd_n": 1266
+        },
+        "city": [
+          {
+            "name": "武汉",
+            "conNum": "44412",
+            "susNum": "0",
+            "cureNum": "4970",
+            "deathNum": "1497",
+            "mapName": "武汉市"
+          },
+          {
+            "name": "黄冈",
+            "conNum": "2844",
+            "susNum": "0",
+            "cureNum": "1059",
+            "deathNum": "85",
+            "mapName": "黄冈市"
+          },
+          {
+            "name": "孝感",
+            "conNum": "3344",
+            "susNum": "0",
+            "cureNum": "572",
+            "deathNum": "82",
+            "mapName": "孝感市"
+          },
+          {
+            "name": "荆门",
+            "conNum": "901",
+            "susNum": "0",
+            "cureNum": "181",
+            "deathNum": "33",
+            "mapName": "荆门市"
+          },
+          {
+            "name": "咸宁",
+            "conNum": "832",
+            "susNum": "0",
+            "cureNum": "225",
+            "deathNum": "10",
+            "mapName": "咸宁市"
+          },
+          {
+            "name": "荆州",
+            "conNum": "1541",
+            "susNum": "0",
+            "cureNum": "409",
+            "deathNum": "38",
+            "mapName": "荆州市"
+          },
+          {
+            "name": "襄阳",
+            "conNum": "1165",
+            "susNum": "0",
+            "cureNum": "230",
+            "deathNum": "22",
+            "mapName": "襄阳市"
+          },
+          {
+            "name": "随州",
+            "conNum": "1280",
+            "susNum": "0",
+            "cureNum": "254",
+            "deathNum": "26",
+            "mapName": "随州市"
+          },
+          {
+            "name": "十堰",
+            "conNum": "638",
+            "susNum": "0",
+            "cureNum": "164",
+            "deathNum": "2",
+            "mapName": "十堰市"
+          },
+          {
+            "name": "鄂州",
+            "conNum": "1343",
+            "susNum": "0",
+            "cureNum": "301",
+            "deathNum": "37",
+            "mapName": "鄂州市"
+          },
+          {
+            "name": "黄石",
+            "conNum": "983",
+            "susNum": "0",
+            "cureNum": "284",
+            "deathNum": "25",
+            "mapName": "黄石市"
+          },
+          {
+            "name": "宜昌",
+            "conNum": "907",
+            "susNum": "0",
+            "cureNum": "208",
+            "deathNum": "25",
+            "mapName": "宜昌市"
+          },
+          {
+            "name": "恩施州",
+            "conNum": "249",
+            "susNum": "0",
+            "cureNum": "96",
+            "deathNum": "3",
+            "mapName": "恩施土家族苗族自治州"
+          },
+          {
+            "name": "仙桃",
+            "conNum": "562",
+            "susNum": "0",
+            "cureNum": "149",
+            "deathNum": "19",
+            "mapName": "仙桃市"
+          },
+          {
+            "name": "天门",
+            "conNum": "486",
+            "susNum": "0",
+            "cureNum": "73",
+            "deathNum": "11",
+            "mapName": "天门市"
+          },
+          {
+            "name": "潜江",
+            "conNum": "185",
+            "susNum": "0",
+            "cureNum": "40",
+            "deathNum": "6",
+            "mapName": "潜江市"
+          },
+          {
+            "name": "神农架林区",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "神农架林区"
+          }
+        ]
+      },
+      {
+        "name": "广东",
+        "ename": "guangdong",
+        "value": "1331",
+        "susNum": "1",
+        "deathNum": "5",
+        "cureNum": "600",
+        "adddaily": {
+          "conadd": "+3",
+          "deathadd": "+1",
+          "cureadd": "+41",
+          "conadd_n": 3,
+          "deathadd_n": 1,
+          "cureadd_n": 41
+        },
+        "city": [
+          {
+            "name": "深圳",
+            "conNum": "416",
+            "susNum": "0",
+            "cureNum": "182",
+            "deathNum": "2",
+            "mapName": "深圳市"
+          },
+          {
+            "name": "广州",
+            "conNum": "339",
+            "susNum": "0",
+            "cureNum": "148",
+            "deathNum": "0",
+            "mapName": "广州市"
+          },
+          {
+            "name": "珠海",
+            "conNum": "98",
+            "susNum": "0",
+            "cureNum": "45",
+            "deathNum": "1",
+            "mapName": "珠海市"
+          },
+          {
+            "name": "佛山",
+            "conNum": "84",
+            "susNum": "0",
+            "cureNum": "27",
+            "deathNum": "0",
+            "mapName": "佛山市"
+          },
+          {
+            "name": "东莞",
+            "conNum": "91",
+            "susNum": "0",
+            "cureNum": "24",
+            "deathNum": "1",
+            "mapName": "东莞市"
+          },
+          {
+            "name": "中山",
+            "conNum": "66",
+            "susNum": "0",
+            "cureNum": "40",
+            "deathNum": "0",
+            "mapName": "中山市"
+          },
+          {
+            "name": "惠州",
+            "conNum": "62",
+            "susNum": "0",
+            "cureNum": "38",
+            "deathNum": "0",
+            "mapName": "惠州市"
+          },
+          {
+            "name": "汕头",
+            "conNum": "25",
+            "susNum": "0",
+            "cureNum": "18",
+            "deathNum": "0",
+            "mapName": "汕头市"
+          },
+          {
+            "name": "江门",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "江门市"
+          },
+          {
+            "name": "湛江",
+            "conNum": "22",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "湛江市"
+          },
+          {
+            "name": "肇庆",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "1",
+            "mapName": "肇庆市"
+          },
+          {
+            "name": "梅州",
+            "conNum": "16",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "梅州市"
+          },
+          {
+            "name": "阳江",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "阳江市"
+          },
+          {
+            "name": "茂名",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "茂名市"
+          },
+          {
+            "name": "清远",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "清远市"
+          },
+          {
+            "name": "揭阳",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "揭阳市"
+          },
+          {
+            "name": "韶关",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "韶关市"
+          },
+          {
+            "name": "汕尾",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "汕尾市"
+          },
+          {
+            "name": "潮州",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "潮州市"
+          },
+          {
+            "name": "河源",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "河源市"
+          }
+        ]
+      },
+      {
+        "name": "浙江",
+        "ename": "zhejiang",
+        "value": "1174",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "584",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+30",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 30
+        },
+        "city": [
+          {
+            "name": "杭州",
+            "conNum": "169",
+            "susNum": "0",
+            "cureNum": "108",
+            "deathNum": "0",
+            "mapName": "杭州市"
+          },
+          {
+            "name": "宁波",
+            "conNum": "156",
+            "susNum": "0",
+            "cureNum": "89",
+            "deathNum": "0",
+            "mapName": "宁波市"
+          },
+          {
+            "name": "温州",
+            "conNum": "504",
+            "susNum": "0",
+            "cureNum": "208",
+            "deathNum": "0",
+            "mapName": "温州市"
+          },
+          {
+            "name": "湖州",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "湖州市"
+          },
+          {
+            "name": "嘉兴",
+            "conNum": "44",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "嘉兴市"
+          },
+          {
+            "name": "绍兴",
+            "conNum": "42",
+            "susNum": "0",
+            "cureNum": "20",
+            "deathNum": "0",
+            "mapName": "绍兴市"
+          },
+          {
+            "name": "金华",
+            "conNum": "55",
+            "susNum": "0",
+            "cureNum": "33",
+            "deathNum": "0",
+            "mapName": "金华市"
+          },
+          {
+            "name": "衢州",
+            "conNum": "21",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "衢州市"
+          },
+          {
+            "name": "舟山",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "舟山市"
+          },
+          {
+            "name": "台州",
+            "conNum": "146",
+            "susNum": "0",
+            "cureNum": "74",
+            "deathNum": "0",
+            "mapName": "台州市"
+          },
+          {
+            "name": "丽水",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "丽水市"
+          }
+        ]
+      },
+      {
+        "name": "河南",
+        "ename": "henan",
+        "value": "1262",
+        "susNum": "0",
+        "deathNum": "19",
+        "cureNum": "565",
+        "adddaily": {
+          "conadd": "+5",
+          "deathadd": "+0",
+          "cureadd": "+47",
+          "conadd_n": 5,
+          "deathadd_n": 0,
+          "cureadd_n": 47
+        },
+        "city": [
+          {
+            "name": "信阳市",
+            "conNum": "268",
+            "susNum": "0",
+            "cureNum": "86",
+            "deathNum": "2",
+            "mapName": "信阳市"
+          },
+          {
+            "name": "南阳市",
+            "conNum": "155",
+            "susNum": "0",
+            "cureNum": "66",
+            "deathNum": "2",
+            "mapName": "南阳市"
+          },
+          {
+            "name": "郑州市",
+            "conNum": "156",
+            "susNum": "0",
+            "cureNum": "77",
+            "deathNum": "0",
+            "mapName": "郑州市"
+          },
+          {
+            "name": "驻马店市",
+            "conNum": "139",
+            "susNum": "0",
+            "cureNum": "83",
+            "deathNum": "0",
+            "mapName": "驻马店市"
+          },
+          {
+            "name": "商丘市",
+            "conNum": "91",
+            "susNum": "0",
+            "cureNum": "46",
+            "deathNum": "3",
+            "mapName": "商丘市"
+          },
+          {
+            "name": "周口市",
+            "conNum": "76",
+            "susNum": "0",
+            "cureNum": "32",
+            "deathNum": "0",
+            "mapName": "周口市"
+          },
+          {
+            "name": "平顶山市",
+            "conNum": "58",
+            "susNum": "0",
+            "cureNum": "31",
+            "deathNum": "1",
+            "mapName": "平顶山市"
+          },
+          {
+            "name": "新乡市",
+            "conNum": "57",
+            "susNum": "0",
+            "cureNum": "21",
+            "deathNum": "3",
+            "mapName": "新乡市"
+          },
+          {
+            "name": "安阳市",
+            "conNum": "52",
+            "susNum": "0",
+            "cureNum": "28",
+            "deathNum": "0",
+            "mapName": "安阳市"
+          },
+          {
+            "name": "许昌市",
+            "conNum": "39",
+            "susNum": "0",
+            "cureNum": "16",
+            "deathNum": "0",
+            "mapName": "许昌市"
+          },
+          {
+            "name": "漯河市",
+            "conNum": "34",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "漯河市"
+          },
+          {
+            "name": "洛阳市",
+            "conNum": "31",
+            "susNum": "0",
+            "cureNum": "12",
+            "deathNum": "1",
+            "mapName": "洛阳市"
+          },
+          {
+            "name": "焦作市",
+            "conNum": "32",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "1",
+            "mapName": "焦作市"
+          },
+          {
+            "name": "开封市",
+            "conNum": "26",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "开封市"
+          },
+          {
+            "name": "鹤壁市",
+            "conNum": "19",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "鹤壁市"
+          },
+          {
+            "name": "濮阳市",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "濮阳市"
+          },
+          {
+            "name": "三门峡市",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "三门峡市"
+          },
+          {
+            "name": "济源示范区",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "济源市"
+          }
+        ]
+      },
+      {
+        "name": "湖南",
+        "ename": "hunan",
+        "value": "1008",
+        "susNum": "0",
+        "deathNum": "4",
+        "cureNum": "555",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+41",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 41
+        },
+        "city": [
+          {
+            "name": "长沙市",
+            "conNum": "241",
+            "susNum": "0",
+            "cureNum": "98",
+            "deathNum": "2",
+            "mapName": "长沙市"
+          },
+          {
+            "name": "衡阳市",
+            "conNum": "48",
+            "susNum": "0",
+            "cureNum": "29",
+            "deathNum": "0",
+            "mapName": "衡阳市"
+          },
+          {
+            "name": "株洲市",
+            "conNum": "78",
+            "susNum": "0",
+            "cureNum": "37",
+            "deathNum": "0",
+            "mapName": "株洲市"
+          },
+          {
+            "name": "湘潭市",
+            "conNum": "35",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "湘潭市"
+          },
+          {
+            "name": "邵阳市",
+            "conNum": "102",
+            "susNum": "0",
+            "cureNum": "71",
+            "deathNum": "1",
+            "mapName": "邵阳市"
+          },
+          {
+            "name": "岳阳市",
+            "conNum": "155",
+            "susNum": "0",
+            "cureNum": "64",
+            "deathNum": "1",
+            "mapName": "岳阳市"
+          },
+          {
+            "name": "常德市",
+            "conNum": "79",
+            "susNum": "0",
+            "cureNum": "49",
+            "deathNum": "0",
+            "mapName": "常德市"
+          },
+          {
+            "name": "张家界市",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "张家界市"
+          },
+          {
+            "name": "益阳市",
+            "conNum": "59",
+            "susNum": "0",
+            "cureNum": "35",
+            "deathNum": "0",
+            "mapName": "益阳市"
+          },
+          {
+            "name": "郴州市",
+            "conNum": "39",
+            "susNum": "0",
+            "cureNum": "29",
+            "deathNum": "0",
+            "mapName": "郴州市"
+          },
+          {
+            "name": "永州市",
+            "conNum": "43",
+            "susNum": "0",
+            "cureNum": "30",
+            "deathNum": "0",
+            "mapName": "永州市"
+          },
+          {
+            "name": "怀化市",
+            "conNum": "40",
+            "susNum": "0",
+            "cureNum": "37",
+            "deathNum": "0",
+            "mapName": "怀化市"
+          },
+          {
+            "name": "娄底市",
+            "conNum": "76",
+            "susNum": "0",
+            "cureNum": "47",
+            "deathNum": "0",
+            "mapName": "娄底市"
+          },
+          {
+            "name": "湘西自治州",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "湘西土家族苗族自治州"
+          }
+        ]
+      },
+      {
+        "name": "重庆",
+        "ename": "chongqing",
+        "value": "555",
+        "susNum": "0",
+        "deathNum": "5",
+        "cureNum": "254",
+        "adddaily": {
+          "conadd": "+2",
+          "deathadd": "+0",
+          "cureadd": "+29",
+          "conadd_n": 2,
+          "deathadd_n": 0,
+          "cureadd_n": 29
+        },
+        "city": [
+          {
+            "name": "万州",
+            "conNum": "110",
+            "susNum": "0",
+            "cureNum": "41",
+            "deathNum": "3",
+            "mapName": "万州区"
+          },
+          {
+            "name": "黔江",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "黔江区"
+          },
+          {
+            "name": "涪陵",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "涪陵区"
+          },
+          {
+            "name": "渝中",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "渝中区"
+          },
+          {
+            "name": "大渡口",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "大渡口区"
+          },
+          {
+            "name": "江北",
+            "conNum": "28",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "江北区"
+          },
+          {
+            "name": "沙坪坝",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "沙坪坝区"
+          },
+          {
+            "name": "九龙坡",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "1",
+            "mapName": "九龙坡区"
+          },
+          {
+            "name": "南岸",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "南岸区"
+          },
+          {
+            "name": "渝北",
+            "conNum": "16",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "渝北区"
+          },
+          {
+            "name": "巴南",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "巴南区"
+          },
+          {
+            "name": "长寿",
+            "conNum": "21",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "长寿区"
+          },
+          {
+            "name": "江津",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "江津区"
+          },
+          {
+            "name": "合川",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "合川区"
+          },
+          {
+            "name": "永川",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "永川区"
+          },
+          {
+            "name": "綦江",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "綦江区"
+          },
+          {
+            "name": "大足",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "大足区"
+          },
+          {
+            "name": "璧山",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "璧山区"
+          },
+          {
+            "name": "铜梁",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "铜梁区"
+          },
+          {
+            "name": "潼南",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "潼南区"
+          },
+          {
+            "name": "荣昌",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "荣昌区"
+          },
+          {
+            "name": "开州",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "1",
+            "mapName": "开州区"
+          },
+          {
+            "name": "梁平",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "梁平区"
+          },
+          {
+            "name": "武隆",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "武隆区"
+          },
+          {
+            "name": "城口",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "城口县"
+          },
+          {
+            "name": "丰都",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "丰都县"
+          },
+          {
+            "name": "垫江",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "垫江县"
+          },
+          {
+            "name": "忠县",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "12",
+            "deathNum": "0",
+            "mapName": "忠县"
+          },
+          {
+            "name": "云阳",
+            "conNum": "25",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "云阳县"
+          },
+          {
+            "name": "奉节",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "奉节县"
+          },
+          {
+            "name": "巫山",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "巫山县"
+          },
+          {
+            "name": "巫溪",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "巫溪县"
+          },
+          {
+            "name": "石柱",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "石柱土家族自治县"
+          },
+          {
+            "name": "秀山",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "秀山土家族苗族自治县"
+          },
+          {
+            "name": "酉阳",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "酉阳土家族苗族自治县"
+          },
+          {
+            "name": "彭水",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "彭水苗族土家族自治县"
+          },
+          {
+            "name": "两江新区",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "高新区",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "万盛",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "未明确地区",
+            "conNum": "0",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": ""
+          }
+        ]
+      },
+      {
+        "name": "安徽",
+        "ename": "anhui",
+        "value": "986",
+        "susNum": "0",
+        "deathNum": "6",
+        "cureNum": "401",
+        "adddaily": {
+          "conadd": "+4",
+          "deathadd": "+0",
+          "cureadd": "+68",
+          "conadd_n": 4,
+          "deathadd_n": 0,
+          "cureadd_n": 68
+        },
+        "city": [
+          {
+            "name": "阜阳",
+            "conNum": "155",
+            "susNum": "0",
+            "cureNum": "64",
+            "deathNum": "0",
+            "mapName": "阜阳市"
+          },
+          {
+            "name": "合肥",
+            "conNum": "173",
+            "susNum": "0",
+            "cureNum": "75",
+            "deathNum": "1",
+            "mapName": "合肥市"
+          },
+          {
+            "name": "马鞍山",
+            "conNum": "37",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "马鞍山市"
+          },
+          {
+            "name": "芜湖",
+            "conNum": "33",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "芜湖市"
+          },
+          {
+            "name": "铜陵",
+            "conNum": "29",
+            "susNum": "0",
+            "cureNum": "12",
+            "deathNum": "0",
+            "mapName": "铜陵市"
+          },
+          {
+            "name": "安庆",
+            "conNum": "83",
+            "susNum": "0",
+            "cureNum": "44",
+            "deathNum": "0",
+            "mapName": "安庆市"
+          },
+          {
+            "name": "亳州",
+            "conNum": "108",
+            "susNum": "0",
+            "cureNum": "47",
+            "deathNum": "0",
+            "mapName": "亳州市"
+          },
+          {
+            "name": "黄山",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "黄山市"
+          },
+          {
+            "name": "滁州",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "滁州市"
+          },
+          {
+            "name": "六安",
+            "conNum": "69",
+            "susNum": "0",
+            "cureNum": "30",
+            "deathNum": "0",
+            "mapName": "六安市"
+          },
+          {
+            "name": "宿州",
+            "conNum": "41",
+            "susNum": "0",
+            "cureNum": "20",
+            "deathNum": "0",
+            "mapName": "宿州市"
+          },
+          {
+            "name": "蚌埠",
+            "conNum": "159",
+            "susNum": "0",
+            "cureNum": "30",
+            "deathNum": "5",
+            "mapName": "蚌埠市"
+          },
+          {
+            "name": "淮南",
+            "conNum": "27",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "淮南市"
+          },
+          {
+            "name": "宣城",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "宣城市"
+          },
+          {
+            "name": "淮北",
+            "conNum": "27",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "0",
+            "mapName": "淮北市"
+          },
+          {
+            "name": "池州",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "池州市"
+          }
+        ]
+      },
+      {
+        "name": "四川",
+        "ename": "sichuan",
+        "value": "514",
+        "susNum": "0",
+        "deathNum": "3",
+        "cureNum": "186",
+        "adddaily": {
+          "conadd": "+6",
+          "deathadd": "+0",
+          "cureadd": "+14",
+          "conadd_n": 6,
+          "deathadd_n": 0,
+          "cureadd_n": 14
+        },
+        "city": [
+          {
+            "name": "成都",
+            "conNum": "141",
+            "susNum": "0",
+            "cureNum": "61",
+            "deathNum": "3",
+            "mapName": "成都市"
+          },
+          {
+            "name": "自贡",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "自贡市"
+          },
+          {
+            "name": "攀枝花",
+            "conNum": "16",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "攀枝花市"
+          },
+          {
+            "name": "泸州",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "泸州市"
+          },
+          {
+            "name": "德阳",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "德阳市"
+          },
+          {
+            "name": "绵阳",
+            "conNum": "22",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "绵阳市"
+          },
+          {
+            "name": "广元",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "广元市"
+          },
+          {
+            "name": "遂宁",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "遂宁市"
+          },
+          {
+            "name": "内江",
+            "conNum": "22",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "内江市"
+          },
+          {
+            "name": "乐山",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "乐山市"
+          },
+          {
+            "name": "南充",
+            "conNum": "38",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "南充市"
+          },
+          {
+            "name": "宜宾",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "宜宾市"
+          },
+          {
+            "name": "广安",
+            "conNum": "30",
+            "susNum": "0",
+            "cureNum": "16",
+            "deathNum": "0",
+            "mapName": "广安市"
+          },
+          {
+            "name": "达州",
+            "conNum": "40",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "达州市"
+          },
+          {
+            "name": "巴中",
+            "conNum": "24",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "巴中市"
+          },
+          {
+            "name": "雅安",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "雅安市"
+          },
+          {
+            "name": "眉山",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "眉山市"
+          },
+          {
+            "name": "资阳",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "资阳市"
+          },
+          {
+            "name": "阿坝州",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "阿坝藏族羌族自治州"
+          },
+          {
+            "name": "甘孜州",
+            "conNum": "65",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "甘孜藏族自治州"
+          },
+          {
+            "name": "凉山州",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "凉山彝族自治州"
+          }
+        ]
+      },
+      {
+        "name": "山东",
+        "ename": "shandong",
+        "value": "544",
+        "susNum": "0",
+        "deathNum": "3",
+        "cureNum": "225",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+1",
+          "cureadd": "+22",
+          "conadd_n": 1,
+          "deathadd_n": 1,
+          "cureadd_n": 22
+        },
+        "city": [
+          {
+            "name": "济南",
+            "conNum": "47",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "济南市"
+          },
+          {
+            "name": "青岛",
+            "conNum": "59",
+            "susNum": "0",
+            "cureNum": "29",
+            "deathNum": "1",
+            "mapName": "青岛市"
+          },
+          {
+            "name": "淄博",
+            "conNum": "29",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "淄博市"
+          },
+          {
+            "name": "枣庄",
+            "conNum": "24",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "枣庄市"
+          },
+          {
+            "name": "烟台",
+            "conNum": "47",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "0",
+            "mapName": "烟台市"
+          },
+          {
+            "name": "潍坊",
+            "conNum": "44",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "潍坊市"
+          },
+          {
+            "name": "济宁",
+            "conNum": "52",
+            "susNum": "0",
+            "cureNum": "27",
+            "deathNum": "0",
+            "mapName": "济宁市"
+          },
+          {
+            "name": "泰安",
+            "conNum": "32",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "1",
+            "mapName": "泰安市"
+          },
+          {
+            "name": "威海",
+            "conNum": "38",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "威海市"
+          },
+          {
+            "name": "日照",
+            "conNum": "16",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "日照市"
+          },
+          {
+            "name": "临沂",
+            "conNum": "48",
+            "susNum": "0",
+            "cureNum": "37",
+            "deathNum": "0",
+            "mapName": "临沂市"
+          },
+          {
+            "name": "德州",
+            "conNum": "37",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "1",
+            "mapName": "德州市"
+          },
+          {
+            "name": "聊城",
+            "conNum": "38",
+            "susNum": "0",
+            "cureNum": "18",
+            "deathNum": "0",
+            "mapName": "聊城市"
+          },
+          {
+            "name": "滨州",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "滨州市"
+          },
+          {
+            "name": "菏泽",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "0",
+            "mapName": "菏泽市"
+          }
+        ]
+      },
+      {
+        "name": "吉林",
+        "ename": "jilin",
+        "value": "90",
+        "susNum": "36",
+        "deathNum": "1",
+        "cureNum": "37",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+2",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 2
+        },
+        "city": [
+          {
+            "name": "长春",
+            "conNum": "45",
+            "susNum": "0",
+            "cureNum": "19",
+            "deathNum": "0",
+            "mapName": "长春市"
+          },
+          {
+            "name": "四平",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "1",
+            "mapName": "四平市"
+          },
+          {
+            "name": "吉林",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "吉林市"
+          },
+          {
+            "name": "公主岭",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "公主岭市"
+          },
+          {
+            "name": "白城",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "白城市"
+          },
+          {
+            "name": "延边",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "延边朝鲜族自治州"
+          },
+          {
+            "name": "辽源",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "辽源市"
+          },
+          {
+            "name": "松原",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "松原市"
+          },
+          {
+            "name": "通化",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "通化市"
+          },
+          {
+            "name": "梅河口",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "梅河口市"
+          }
+        ]
+      },
+      {
+        "name": "福建",
+        "ename": "fujian",
+        "value": "293",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "105",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+5",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 5
+        },
+        "city": [
+          {
+            "name": "福州",
+            "conNum": "71",
+            "susNum": "0",
+            "cureNum": "28",
+            "deathNum": "0",
+            "mapName": "福州市"
+          },
+          {
+            "name": "莆田",
+            "conNum": "55",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "莆田市"
+          },
+          {
+            "name": "漳州",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "漳州市"
+          },
+          {
+            "name": "泉州",
+            "conNum": "46",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "0",
+            "mapName": "泉州市"
+          },
+          {
+            "name": "三明",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "三明市"
+          },
+          {
+            "name": "厦门",
+            "conNum": "35",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "厦门市"
+          },
+          {
+            "name": "南平",
+            "conNum": "20",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "南平市"
+          },
+          {
+            "name": "龙岩",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "龙岩市"
+          },
+          {
+            "name": "宁德",
+            "conNum": "26",
+            "susNum": "0",
+            "cureNum": "12",
+            "deathNum": "0",
+            "mapName": "宁德市"
+          }
+        ]
+      },
+      {
+        "name": "江西",
+        "ename": "jiangxi",
+        "value": "934",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "362",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+52",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 52
+        },
+        "city": [
+          {
+            "name": "南昌",
+            "conNum": "230",
+            "susNum": "0",
+            "cureNum": "114",
+            "deathNum": "0",
+            "mapName": "南昌市"
+          },
+          {
+            "name": "赣州",
+            "conNum": "76",
+            "susNum": "0",
+            "cureNum": "24",
+            "deathNum": "1",
+            "mapName": "赣州市"
+          },
+          {
+            "name": "宜春",
+            "conNum": "106",
+            "susNum": "0",
+            "cureNum": "33",
+            "deathNum": "0",
+            "mapName": "宜春市"
+          },
+          {
+            "name": "九江",
+            "conNum": "118",
+            "susNum": "0",
+            "cureNum": "33",
+            "deathNum": "0",
+            "mapName": "九江市"
+          },
+          {
+            "name": "抚州",
+            "conNum": "72",
+            "susNum": "0",
+            "cureNum": "29",
+            "deathNum": "0",
+            "mapName": "抚州市"
+          },
+          {
+            "name": "上饶",
+            "conNum": "123",
+            "susNum": "0",
+            "cureNum": "47",
+            "deathNum": "0",
+            "mapName": "上饶市"
+          },
+          {
+            "name": "新余",
+            "conNum": "129",
+            "susNum": "0",
+            "cureNum": "58",
+            "deathNum": "0",
+            "mapName": "新余市"
+          },
+          {
+            "name": "吉安",
+            "conNum": "22",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "吉安市"
+          },
+          {
+            "name": "景德镇",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "景德镇市"
+          },
+          {
+            "name": "萍乡",
+            "conNum": "33",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "萍乡市"
+          },
+          {
+            "name": "鹰潭",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "鹰潭市"
+          },
+          {
+            "name": "赣江新区",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "南昌市"
+          }
+        ]
+      },
+      {
+        "name": "江苏",
+        "ename": "jiangsu",
+        "value": "631",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "309",
+        "adddaily": {
+          "conadd": "+2",
+          "deathadd": "+0",
+          "cureadd": "+33",
+          "conadd_n": 2,
+          "deathadd_n": 0,
+          "cureadd_n": 33
+        },
+        "city": [
+          {
+            "name": "南京",
+            "conNum": "93",
+            "susNum": "0",
+            "cureNum": "35",
+            "deathNum": "0",
+            "mapName": "南京市"
+          },
+          {
+            "name": "无锡",
+            "conNum": "55",
+            "susNum": "0",
+            "cureNum": "27",
+            "deathNum": "0",
+            "mapName": "无锡市"
+          },
+          {
+            "name": "徐州",
+            "conNum": "79",
+            "susNum": "0",
+            "cureNum": "51",
+            "deathNum": "0",
+            "mapName": "徐州市"
+          },
+          {
+            "name": "常州",
+            "conNum": "51",
+            "susNum": "0",
+            "cureNum": "27",
+            "deathNum": "0",
+            "mapName": "常州市"
+          },
+          {
+            "name": "苏州",
+            "conNum": "87",
+            "susNum": "0",
+            "cureNum": "33",
+            "deathNum": "0",
+            "mapName": "苏州市"
+          },
+          {
+            "name": "南通",
+            "conNum": "40",
+            "susNum": "0",
+            "cureNum": "23",
+            "deathNum": "0",
+            "mapName": "南通市"
+          },
+          {
+            "name": "连云港",
+            "conNum": "48",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "连云港市"
+          },
+          {
+            "name": "淮安",
+            "conNum": "66",
+            "susNum": "0",
+            "cureNum": "32",
+            "deathNum": "0",
+            "mapName": "淮安市"
+          },
+          {
+            "name": "盐城",
+            "conNum": "27",
+            "susNum": "0",
+            "cureNum": "18",
+            "deathNum": "0",
+            "mapName": "盐城市"
+          },
+          {
+            "name": "扬州",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "扬州市"
+          },
+          {
+            "name": "镇江",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "镇江市"
+          },
+          {
+            "name": "泰州",
+            "conNum": "37",
+            "susNum": "0",
+            "cureNum": "22",
+            "deathNum": "0",
+            "mapName": "泰州市"
+          },
+          {
+            "name": "宿迁",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "宿迁市"
+          }
+        ]
+      },
+      {
+        "name": "上海",
+        "ename": "shanghai",
+        "value": "333",
+        "susNum": "123",
+        "deathNum": "2",
+        "cureNum": "186",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+16",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 16
+        },
+        "city": [
+          {
+            "name": "外地来沪人员",
+            "conNum": "110",
+            "susNum": "0",
+            "cureNum": "66",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "浦东",
+            "conNum": "60",
+            "susNum": "0",
+            "cureNum": "37",
+            "deathNum": "0",
+            "mapName": "浦东新区"
+          },
+          {
+            "name": "静安",
+            "conNum": "16",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "静安区"
+          },
+          {
+            "name": "长宁",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "长宁区"
+          },
+          {
+            "name": "奉贤",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "奉贤区"
+          },
+          {
+            "name": "徐汇",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "徐汇区"
+          },
+          {
+            "name": "闵行",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "闵行区"
+          },
+          {
+            "name": "青浦",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "青浦区"
+          },
+          {
+            "name": "虹口",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "虹口区"
+          },
+          {
+            "name": "黄浦",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "黄浦区"
+          },
+          {
+            "name": "宝山",
+            "conNum": "21",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "宝山区"
+          },
+          {
+            "name": "嘉定",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "嘉定区"
+          },
+          {
+            "name": "金山",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "金山区"
+          },
+          {
+            "name": "松江",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "松江区"
+          },
+          {
+            "name": "杨浦",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "杨浦区"
+          },
+          {
+            "name": "普陀",
+            "conNum": "11",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "普陀区"
+          },
+          {
+            "name": "崇明",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "崇明区"
+          }
+        ]
+      },
+      {
+        "name": "广西",
+        "ename": "guangxi",
+        "value": "244",
+        "susNum": "0",
+        "deathNum": "2",
+        "cureNum": "86",
+        "adddaily": {
+          "conadd": "+2",
+          "deathadd": "+0",
+          "cureadd": "+18",
+          "conadd_n": 2,
+          "deathadd_n": 0,
+          "cureadd_n": 18
+        },
+        "city": [
+          {
+            "name": "南宁",
+            "conNum": "54",
+            "susNum": "0",
+            "cureNum": "23",
+            "deathNum": "0",
+            "mapName": "南宁市"
+          },
+          {
+            "name": "柳州",
+            "conNum": "24",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "柳州市"
+          },
+          {
+            "name": "桂林",
+            "conNum": "31",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "桂林市"
+          },
+          {
+            "name": "梧州",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "梧州市"
+          },
+          {
+            "name": "北海",
+            "conNum": "44",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "1",
+            "mapName": "北海市"
+          },
+          {
+            "name": "防城港",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "防城港市"
+          },
+          {
+            "name": "钦州",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "钦州市"
+          },
+          {
+            "name": "贵港",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "贵港市"
+          },
+          {
+            "name": "玉林",
+            "conNum": "11",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "玉林市"
+          },
+          {
+            "name": "百色",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "百色市"
+          },
+          {
+            "name": "河池",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "1",
+            "mapName": "河池市"
+          },
+          {
+            "name": "贺州",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "贺州市"
+          },
+          {
+            "name": "来宾",
+            "conNum": "11",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "来宾市"
+          }
+        ]
+      },
+      {
+        "name": "海南",
+        "ename": "hainan",
+        "value": "163",
+        "susNum": "0",
+        "deathNum": "4",
+        "cureNum": "84",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+20",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 20
+        },
+        "city": [
+          {
+            "name": "海口",
+            "conNum": "34",
+            "susNum": "0",
+            "cureNum": "17",
+            "deathNum": "0",
+            "mapName": "海口市"
+          },
+          {
+            "name": "三亚",
+            "conNum": "54",
+            "susNum": "0",
+            "cureNum": "22",
+            "deathNum": "1",
+            "mapName": "三亚市"
+          },
+          {
+            "name": "儋州",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "儋州市"
+          },
+          {
+            "name": "万宁",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "万宁市"
+          },
+          {
+            "name": "琼海",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "1",
+            "mapName": "琼海市"
+          },
+          {
+            "name": "东方",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "东方市"
+          },
+          {
+            "name": "临高",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "临高县"
+          },
+          {
+            "name": "定安",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "1",
+            "mapName": "定安县"
+          },
+          {
+            "name": "昌江",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "昌江黎族自治县"
+          },
+          {
+            "name": "澄迈",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "1",
+            "mapName": "澄迈县"
+          },
+          {
+            "name": "陵水",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "陵水黎族自治县"
+          },
+          {
+            "name": "琼中",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "琼中黎族苗族自治县"
+          },
+          {
+            "name": "乐东",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "乐东黎族自治县"
+          },
+          {
+            "name": "文昌",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "文昌市"
+          },
+          {
+            "name": "保亭",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "保亭黎族苗族自治县"
+          }
+        ]
+      },
+      {
+        "name": "陕西",
+        "ename": "shanxis",
+        "value": "242",
+        "susNum": "66",
+        "deathNum": "0",
+        "cureNum": "100",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+5",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 5
+        },
+        "city": [
+          {
+            "name": "西安",
+            "conNum": "118",
+            "susNum": "0",
+            "cureNum": "43",
+            "deathNum": "0",
+            "mapName": "西安市"
+          },
+          {
+            "name": "安康",
+            "conNum": "25",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "安康市"
+          },
+          {
+            "name": "铜川",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "铜川市"
+          },
+          {
+            "name": "咸阳",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "咸阳市"
+          },
+          {
+            "name": "汉中",
+            "conNum": "26",
+            "susNum": "0",
+            "cureNum": "5",
+            "deathNum": "0",
+            "mapName": "汉中市"
+          },
+          {
+            "name": "渭南",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "渭南市"
+          },
+          {
+            "name": "宝鸡",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "宝鸡市"
+          },
+          {
+            "name": "延安",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "延安市"
+          },
+          {
+            "name": "商洛",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "商洛市"
+          },
+          {
+            "name": "榆林",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "榆林市"
+          },
+          {
+            "name": "韩城",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "韩城市"
+          },
+          {
+            "name": "杨凌示范区",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "待确认",
+            "conNum": "0",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": ""
+          }
+        ]
+      },
+      {
+        "name": "河北",
+        "ename": "hebei",
+        "value": "306",
+        "susNum": "0",
+        "deathNum": "4",
+        "cureNum": "141",
+        "adddaily": {
+          "conadd": "+4",
+          "deathadd": "+0",
+          "cureadd": "+13",
+          "conadd_n": 4,
+          "deathadd_n": 0,
+          "cureadd_n": 13
+        },
+        "city": [
+          {
+            "name": "石家庄",
+            "conNum": "28",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "0",
+            "mapName": "石家庄市"
+          },
+          {
+            "name": "廊坊",
+            "conNum": "30",
+            "susNum": "0",
+            "cureNum": "18",
+            "deathNum": "0",
+            "mapName": "廊坊市"
+          },
+          {
+            "name": "沧州",
+            "conNum": "48",
+            "susNum": "0",
+            "cureNum": "18",
+            "deathNum": "2",
+            "mapName": "沧州市"
+          },
+          {
+            "name": "邯郸",
+            "conNum": "31",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "0",
+            "mapName": "邯郸市"
+          },
+          {
+            "name": "保定",
+            "conNum": "32",
+            "susNum": "0",
+            "cureNum": "27",
+            "deathNum": "0",
+            "mapName": "保定市"
+          },
+          {
+            "name": "邢台",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "1",
+            "mapName": "邢台市"
+          },
+          {
+            "name": "衡水",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "衡水市"
+          },
+          {
+            "name": "承德",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "承德市"
+          },
+          {
+            "name": "唐山",
+            "conNum": "55",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "1",
+            "mapName": "唐山市"
+          },
+          {
+            "name": "张家口",
+            "conNum": "34",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "张家口市"
+          },
+          {
+            "name": "秦皇岛",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "秦皇岛市"
+          }
+        ]
+      },
+      {
+        "name": "黑龙江",
+        "ename": "heilongjiang",
+        "value": "470",
+        "susNum": "101",
+        "deathNum": "12",
+        "cureNum": "117",
+        "adddaily": {
+          "conadd": "+6",
+          "deathadd": "+1",
+          "cureadd": "+23",
+          "conadd_n": 6,
+          "deathadd_n": 1,
+          "cureadd_n": 23
+        },
+        "city": [
+          {
+            "name": "哈尔滨",
+            "conNum": "192",
+            "susNum": "0",
+            "cureNum": "48",
+            "deathNum": "3",
+            "mapName": "哈尔滨市"
+          },
+          {
+            "name": "齐齐哈尔",
+            "conNum": "43",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "1",
+            "mapName": "齐齐哈尔市"
+          },
+          {
+            "name": "牡丹江",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "牡丹江市"
+          },
+          {
+            "name": "佳木斯",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "12",
+            "deathNum": "0",
+            "mapName": "佳木斯市"
+          },
+          {
+            "name": "大庆",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "1",
+            "mapName": "大庆市"
+          },
+          {
+            "name": "鸡西",
+            "conNum": "46",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "鸡西市"
+          },
+          {
+            "name": "双鸭山",
+            "conNum": "52",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "3",
+            "mapName": "双鸭山市"
+          },
+          {
+            "name": "七台河",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "七台河市"
+          },
+          {
+            "name": "鹤岗",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "鹤岗市"
+          },
+          {
+            "name": "绥化",
+            "conNum": "47",
+            "susNum": "0",
+            "cureNum": "18",
+            "deathNum": "4",
+            "mapName": "绥化市"
+          },
+          {
+            "name": "大兴安岭",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "大兴安岭"
+          },
+          {
+            "name": "黑河",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "黑河市"
+          },
+          {
+            "name": "伊春",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "伊春市"
+          }
+        ]
+      },
+      {
+        "name": "辽宁",
+        "ename": "liaoning",
+        "value": "121",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "55",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+12",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 12
+        },
+        "city": [
+          {
+            "name": "沈阳",
+            "conNum": "28",
+            "susNum": "0",
+            "cureNum": "22",
+            "deathNum": "0",
+            "mapName": "沈阳市"
+          },
+          {
+            "name": "大连",
+            "conNum": "19",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "大连市"
+          },
+          {
+            "name": "鞍山",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "鞍山市"
+          },
+          {
+            "name": "本溪",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "本溪市"
+          },
+          {
+            "name": "丹东",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "丹东市"
+          },
+          {
+            "name": "锦州",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "锦州市"
+          },
+          {
+            "name": "营口",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "营口市"
+          },
+          {
+            "name": "阜新",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "阜新市"
+          },
+          {
+            "name": "辽阳",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "辽阳市"
+          },
+          {
+            "name": "铁岭",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "铁岭市"
+          },
+          {
+            "name": "朝阳",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "朝阳市"
+          },
+          {
+            "name": "盘锦",
+            "conNum": "11",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "盘锦市"
+          },
+          {
+            "name": "葫芦岛",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "1",
+            "mapName": "葫芦岛市"
+          }
+        ]
+      },
+      {
+        "name": "云南",
+        "ename": "yunnan",
+        "value": "173",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "60",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+10",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 10
+        },
+        "city": [
+          {
+            "name": "昆明",
+            "conNum": "53",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "昆明市"
+          },
+          {
+            "name": "昭通",
+            "conNum": "25",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "昭通市"
+          },
+          {
+            "name": "西双版纳",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "西双版纳傣族自治州"
+          },
+          {
+            "name": "玉溪",
+            "conNum": "14",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "1",
+            "mapName": "玉溪市"
+          },
+          {
+            "name": "曲靖",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "曲靖市"
+          },
+          {
+            "name": "大理州",
+            "conNum": "13",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "大理白族自治州"
+          },
+          {
+            "name": "保山",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "保山市"
+          },
+          {
+            "name": "红河州",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "红河哈尼族彝族自治州"
+          },
+          {
+            "name": "丽江",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "丽江市"
+          },
+          {
+            "name": "德宏州",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "德宏傣族景颇族自治州"
+          },
+          {
+            "name": "楚雄州",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "楚雄彝族自治州"
+          },
+          {
+            "name": "普洱",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "普洱市"
+          },
+          {
+            "name": "文山州",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "文山壮族苗族自治州"
+          },
+          {
+            "name": "临沧",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "临沧市"
+          }
+        ]
+      },
+      {
+        "name": "天津",
+        "ename": "tianjin",
+        "value": "128",
+        "susNum": "0",
+        "deathNum": "3",
+        "cureNum": "48",
+        "adddaily": {
+          "conadd": "+3",
+          "deathadd": "+0",
+          "cureadd": "+2",
+          "conadd_n": 3,
+          "deathadd_n": 0,
+          "cureadd_n": 2
+        },
+        "city": [
+          {
+            "name": "宝坻区",
+            "conNum": "53",
+            "susNum": "0",
+            "cureNum": "12",
+            "deathNum": "2",
+            "mapName": "宝坻区"
+          },
+          {
+            "name": "河东区",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "1",
+            "mapName": "河东区"
+          },
+          {
+            "name": "河北区",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "河北区"
+          },
+          {
+            "name": "和平区",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "和平区"
+          },
+          {
+            "name": "外地来津",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "河西区",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "河西区"
+          },
+          {
+            "name": "宁河区",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "宁河区"
+          },
+          {
+            "name": "南开区",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "南开区"
+          },
+          {
+            "name": "西青区",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "西青区"
+          },
+          {
+            "name": "东丽区",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "东丽区"
+          },
+          {
+            "name": "红桥区",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "红桥区"
+          },
+          {
+            "name": "滨海新区",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "滨海新区"
+          },
+          {
+            "name": "北辰区",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "北辰区"
+          },
+          {
+            "name": "津南区",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "津南区"
+          },
+          {
+            "name": "武清区",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "武清区"
+          }
+        ]
+      },
+      {
+        "name": "山西",
+        "ename": "shanxi",
+        "value": "131",
+        "susNum": "22",
+        "deathNum": "0",
+        "cureNum": "62",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+8",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 8
+        },
+        "city": [
+          {
+            "name": "太原",
+            "conNum": "19",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "太原市"
+          },
+          {
+            "name": "大同",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "大同市"
+          },
+          {
+            "name": "阳泉",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "阳泉市"
+          },
+          {
+            "name": "长治",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "长治市"
+          },
+          {
+            "name": "晋城",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "晋城市"
+          },
+          {
+            "name": "朔州",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "朔州市"
+          },
+          {
+            "name": "晋中",
+            "conNum": "36",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "晋中市"
+          },
+          {
+            "name": "忻州",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "忻州市"
+          },
+          {
+            "name": "运城",
+            "conNum": "19",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "运城市"
+          },
+          {
+            "name": "临汾",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "临汾市"
+          },
+          {
+            "name": "吕梁",
+            "conNum": "6",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "吕梁市"
+          }
+        ]
+      },
+      {
+        "name": "甘肃",
+        "ename": "gansu",
+        "value": "91",
+        "susNum": "0",
+        "deathNum": "2",
+        "cureNum": "62",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+4",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 4
+        },
+        "city": [
+          {
+            "name": "兰州",
+            "conNum": "36",
+            "susNum": "0",
+            "cureNum": "22",
+            "deathNum": "2",
+            "mapName": "兰州市"
+          },
+          {
+            "name": "天水",
+            "conNum": "12",
+            "susNum": "0",
+            "cureNum": "11",
+            "deathNum": "0",
+            "mapName": "天水市"
+          },
+          {
+            "name": "定西",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "定西市"
+          },
+          {
+            "name": "平凉",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "平凉市"
+          },
+          {
+            "name": "甘南州",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "甘南藏族自治州"
+          },
+          {
+            "name": "白银",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "白银市"
+          },
+          {
+            "name": "陇南",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "陇南市"
+          },
+          {
+            "name": "庆阳",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "庆阳市"
+          },
+          {
+            "name": "临夏州",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "临夏回族自治州"
+          },
+          {
+            "name": "张掖",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "张掖市"
+          },
+          {
+            "name": "金昌",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "金昌市"
+          }
+        ]
+      },
+      {
+        "name": "内蒙古",
+        "ename": "neimenggu",
+        "value": "75",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "9",
+        "adddaily": {
+          "conadd": "+2",
+          "deathadd": "+0",
+          "cureadd": "+1",
+          "conadd_n": 2,
+          "deathadd_n": 0,
+          "cureadd_n": 1
+        },
+        "city": [
+          {
+            "name": "鄂尔多斯",
+            "conNum": "11",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "鄂尔多斯市"
+          },
+          {
+            "name": "包头",
+            "conNum": "11",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "包头市"
+          },
+          {
+            "name": "锡林郭勒",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "锡林郭勒盟"
+          },
+          {
+            "name": "赤峰",
+            "conNum": "9",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "赤峰市"
+          },
+          {
+            "name": "巴彦淖尔",
+            "conNum": "8",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "巴彦淖尔市"
+          },
+          {
+            "name": "呼和浩特",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "呼和浩特市"
+          },
+          {
+            "name": "通辽",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "通辽市"
+          },
+          {
+            "name": "呼伦贝尔",
+            "conNum": "7",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "呼伦贝尔市"
+          },
+          {
+            "name": "乌兰察布",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "乌兰察布市"
+          },
+          {
+            "name": "乌海",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "乌海市"
+          },
+          {
+            "name": "兴安盟",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "兴安盟"
+          }
+        ]
+      },
+      {
+        "name": "台湾",
+        "ename": "taiwan",
+        "value": "23",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "2",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+0",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 0
+        },
+        "city": []
+      },
+      {
+        "name": "澳门",
+        "ename": "aomen",
+        "value": "10",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "5",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+0",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 0
+        },
+        "city": []
+      },
+      {
+        "name": "香港",
+        "ename": "xianggang",
+        "value": "63",
+        "susNum": "0",
+        "deathNum": "2",
+        "cureNum": "5",
+        "adddaily": {
+          "conadd": "+2",
+          "deathadd": "+1",
+          "cureadd": "+2",
+          "conadd_n": 2,
+          "deathadd_n": 1,
+          "cureadd_n": 2
+        },
+        "city": []
+      },
+      {
+        "name": "贵州",
+        "ename": "guizhou",
+        "value": "146",
+        "susNum": "0",
+        "deathNum": "2",
+        "cureNum": "69",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+1",
+          "cureadd": "+3",
+          "conadd_n": 0,
+          "deathadd_n": 1,
+          "cureadd_n": 3
+        },
+        "city": [
+          {
+            "name": "贵阳",
+            "conNum": "36",
+            "susNum": "0",
+            "cureNum": "13",
+            "deathNum": "1",
+            "mapName": "贵阳市"
+          },
+          {
+            "name": "遵义",
+            "conNum": "32",
+            "susNum": "0",
+            "cureNum": "15",
+            "deathNum": "0",
+            "mapName": "遵义市"
+          },
+          {
+            "name": "六盘水",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "1",
+            "mapName": "六盘水市"
+          },
+          {
+            "name": "安顺",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "安顺市"
+          },
+          {
+            "name": "毕节",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "10",
+            "deathNum": "0",
+            "mapName": "毕节市"
+          },
+          {
+            "name": "铜仁",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "铜仁市"
+          },
+          {
+            "name": "黔东南州",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "黔东南苗族侗族自治州"
+          },
+          {
+            "name": "黔南州",
+            "conNum": "17",
+            "susNum": "0",
+            "cureNum": "7",
+            "deathNum": "0",
+            "mapName": "黔南布依族苗族自治州"
+          },
+          {
+            "name": "黔西南州",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "4",
+            "deathNum": "0",
+            "mapName": "黔西南布依族苗族自治州"
+          }
+        ]
+      },
+      {
+        "name": "西藏",
+        "ename": "xizang",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+0",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 0
+        },
+        "city": [
+          {
+            "name": "拉萨",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "拉萨市"
+          }
+        ]
+      },
+      {
+        "name": "青海",
+        "ename": "qinghai",
+        "value": "18",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "16",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+2",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 2
+        },
+        "city": [
+          {
+            "name": "西宁",
+            "conNum": "15",
+            "susNum": "0",
+            "cureNum": "14",
+            "deathNum": "0",
+            "mapName": "西宁市"
+          },
+          {
+            "name": "海北州",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "海北藏族自治州"
+          }
+        ]
+      },
+      {
+        "name": "新疆",
+        "ename": "xinjiang",
+        "value": "76",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "20",
+        "adddaily": {
+          "conadd": "+0",
+          "deathadd": "+0",
+          "cureadd": "+2",
+          "conadd_n": 0,
+          "deathadd_n": 0,
+          "cureadd_n": 2
+        },
+        "city": [
+          {
+            "name": "乌鲁木齐",
+            "conNum": "23",
+            "susNum": "0",
+            "cureNum": "8",
+            "deathNum": "0",
+            "mapName": "乌鲁木齐市"
+          },
+          {
+            "name": "伊犁州",
+            "conNum": "18",
+            "susNum": "0",
+            "cureNum": "6",
+            "deathNum": "0",
+            "mapName": "伊犁哈萨克自治州"
+          },
+          {
+            "name": "吐鲁番",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "吐鲁番市"
+          },
+          {
+            "name": "阿克苏",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "阿克苏地区"
+          },
+          {
+            "name": "昌吉",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "2",
+            "deathNum": "0",
+            "mapName": "昌吉回族自治州"
+          },
+          {
+            "name": "巴州",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "巴音郭楞蒙古自治州"
+          },
+          {
+            "name": "第七师",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "新疆生产建设兵团第七师"
+          },
+          {
+            "name": "石河子",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "1",
+            "mapName": "石河子市"
+          },
+          {
+            "name": "第九师",
+            "conNum": "4",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "新疆生产建设兵团第九师"
+          },
+          {
+            "name": "五家渠市",
+            "conNum": "2",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": "五家渠市"
+          },
+          {
+            "name": "第十二师",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": ""
+          },
+          {
+            "name": "第四师",
+            "conNum": "10",
+            "susNum": "0",
+            "cureNum": "0",
+            "deathNum": "0",
+            "mapName": ""
+          }
+        ]
+      },
+      {
+        "name": "宁夏",
+        "ename": "ningxia",
+        "value": "71",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "42",
+        "adddaily": {
+          "conadd": "+1",
+          "deathadd": "+0",
+          "cureadd": "+7",
+          "conadd_n": 1,
+          "deathadd_n": 0,
+          "cureadd_n": 7
+        },
+        "city": [
+          {
+            "name": "银川",
+            "conNum": "33",
+            "susNum": "0",
+            "cureNum": "25",
+            "deathNum": "0",
+            "mapName": "银川市"
+          },
+          {
+            "name": "石嘴山",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": "石嘴山市"
+          },
+          {
+            "name": "吴忠",
+            "conNum": "28",
+            "susNum": "0",
+            "cureNum": "9",
+            "deathNum": "0",
+            "mapName": "吴忠市"
+          },
+          {
+            "name": "固原",
+            "conNum": "5",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "固原市"
+          },
+          {
+            "name": "中卫",
+            "conNum": "3",
+            "susNum": "0",
+            "cureNum": "3",
+            "deathNum": "0",
+            "mapName": "中卫市"
+          },
+          {
+            "name": "宁东",
+            "conNum": "1",
+            "susNum": "0",
+            "cureNum": "1",
+            "deathNum": "0",
+            "mapName": ""
+          }
+        ]
+      }
+    ],
+    "otherlist": [
+      {
+        "name": "日本",
+        "value": "620",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "13"
+      },
+      {
+        "name": "新加坡",
+        "value": "81",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "29"
+      },
+      {
+        "name": "泰国",
+        "value": "35",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "15"
+      },
+      {
+        "name": "德国",
+        "value": "16",
+        "susNum": "3",
+        "deathNum": "0",
+        "cureNum": "9"
+      },
+      {
+        "name": "阿联酋",
+        "value": "9",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "4"
+      },
+      {
+        "name": "越南",
+        "value": "16",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "9"
+      },
+      {
+        "name": "澳大利亚",
+        "value": "15",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "5"
+      },
+      {
+        "name": "韩国",
+        "value": "51",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "16"
+      },
+      {
+        "name": "美国",
+        "value": "15",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "马来西亚",
+        "value": "22",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "15"
+      },
+      {
+        "name": "比利时",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "西班牙",
+        "value": "2",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "俄罗斯",
+        "value": "2",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "2"
+      },
+      {
+        "name": "柬埔寨",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "印度",
+        "value": "3",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "3"
+      },
+      {
+        "name": "斯里兰卡",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "菲律宾",
+        "value": "3",
+        "susNum": "31",
+        "deathNum": "1",
+        "cureNum": "1"
+      },
+      {
+        "name": "墨西哥",
+        "value": "0",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "巴西",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "哥伦比亚",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "英国",
+        "value": "9",
+        "susNum": "5",
+        "deathNum": "0",
+        "cureNum": "8"
+      },
+      {
+        "name": "意大利",
+        "value": "3",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "加拿大",
+        "value": "8",
+        "susNum": "9",
+        "deathNum": "0",
+        "cureNum": "2"
+      },
+      {
+        "name": "芬兰",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "尼泊尔",
+        "value": "1",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "法国",
+        "value": "12",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "4"
+      },
+      {
+        "name": "科特迪瓦",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "瑞士",
+        "value": "0",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "以色列",
+        "value": "0",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "厄瓜多尔",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "瑞典",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "埃及",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      }
+    ],
+    "historylist": [
+      {
+        "date": "02.18",
+        "cn_conNum": "74279",
+        "cn_deathNum": "2006",
+        "cn_cureNum": "14387",
+        "cn_susNum": "5248",
+        "cn_deathRate": "2.7",
+        "cn_cureRate": "19.37",
+        "is_show": "true",
+        "wjw_susNum": "1185",
+        "wuhan_conNum": "44412",
+        "wuhan_deathNum": "1497",
+        "wuhan_cureNum": "4895",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.17",
+        "cn_conNum": "72528",
+        "cn_deathNum": "1870",
+        "cn_cureNum": "12561",
+        "cn_susNum": "6242",
+        "cn_deathRate": "2.58",
+        "cn_cureRate": "17.32",
+        "is_show": "true",
+        "wjw_susNum": "1432",
+        "wuhan_conNum": "42752",
+        "wuhan_deathNum": "1381",
+        "wuhan_cureNum": "3507",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.16",
+        "cn_conNum": "70635",
+        "cn_deathNum": "1772",
+        "cn_cureNum": "10853",
+        "cn_susNum": "7264",
+        "cn_deathRate": "2.51",
+        "cn_cureRate": "15.36",
+        "is_show": "true",
+        "wjw_susNum": "1563",
+        "wuhan_conNum": "41152",
+        "wuhan_deathNum": "1309",
+        "wuhan_cureNum": "2925",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.15",
+        "cn_conNum": "68584",
+        "cn_deathNum": "1666",
+        "cn_cureNum": "9425",
+        "cn_susNum": "8228",
+        "cn_deathRate": "2.43",
+        "cn_cureRate": "13.74",
+        "is_show": "true",
+        "wjw_susNum": "1918",
+        "wuhan_conNum": "39462",
+        "wuhan_deathNum": "1233",
+        "wuhan_cureNum": "2915",
+        "wuhan_susNum": "2168"
+      },
+      {
+        "date": "02.14",
+        "cn_conNum": "66576",
+        "cn_deathNum": "1524",
+        "cn_cureNum": "8101",
+        "cn_susNum": "8969",
+        "cn_deathRate": "2.29",
+        "cn_cureRate": "12.17",
+        "is_show": "true",
+        "wjw_susNum": "2277",
+        "wuhan_conNum": "37914",
+        "wuhan_deathNum": "1123",
+        "wuhan_cureNum": "2023",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.13",
+        "cn_conNum": "63932",
+        "cn_deathNum": "1381",
+        "cn_cureNum": "6728",
+        "cn_susNum": "10109",
+        "cn_deathRate": "2.16",
+        "cn_cureRate": "10.52",
+        "is_show": "true",
+        "wjw_susNum": "2450",
+        "wuhan_conNum": "32959",
+        "wuhan_deathNum": "1016",
+        "wuhan_cureNum": "2016",
+        "wuhan_susNum": "2585"
+      },
+      {
+        "date": "02.12",
+        "cn_conNum": "59882",
+        "cn_deathNum": "1368",
+        "cn_cureNum": "5915",
+        "cn_susNum": "13485",
+        "cn_deathRate": "2.28",
+        "cn_cureRate": "9.88",
+        "is_show": "true",
+        "wjw_susNum": "2807",
+        "wuhan_conNum": "32994",
+        "wuhan_deathNum": "1036",
+        "wuhan_cureNum": "1380",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.11",
+        "cn_conNum": "44730",
+        "cn_deathNum": "1114",
+        "cn_cureNum": "4742",
+        "cn_susNum": "16067",
+        "cn_deathRate": "2.49",
+        "cn_cureRate": "10.6",
+        "is_show": "true",
+        "wjw_susNum": "3342",
+        "wuhan_conNum": "19558",
+        "wuhan_deathNum": "820",
+        "wuhan_cureNum": "1242",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.10",
+        "cn_conNum": "42708",
+        "cn_deathNum": "1017",
+        "cn_cureNum": "3998",
+        "cn_susNum": "21675",
+        "cn_deathRate": "2.38",
+        "cn_cureRate": "9.36",
+        "is_show": "true",
+        "wjw_susNum": "3536",
+        "wuhan_conNum": "18454",
+        "wuhan_deathNum": "748",
+        "wuhan_cureNum": "1052",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.09",
+        "cn_conNum": "40235",
+        "cn_deathNum": "909",
+        "cn_cureNum": "3283",
+        "cn_susNum": "23589",
+        "cn_deathRate": "2.26",
+        "cn_cureRate": "8.16",
+        "is_show": "true",
+        "wjw_susNum": "4008",
+        "wuhan_conNum": "16902",
+        "wuhan_deathNum": "681",
+        "wuhan_cureNum": "879",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.08",
+        "cn_conNum": "37251",
+        "cn_deathNum": "812",
+        "cn_cureNum": "2651",
+        "cn_susNum": "28942",
+        "cn_deathRate": "2.18",
+        "cn_cureRate": "7.12",
+        "is_show": "true",
+        "wjw_susNum": "3916",
+        "wuhan_conNum": "14982",
+        "wuhan_deathNum": "608",
+        "wuhan_cureNum": "747",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.07",
+        "cn_conNum": "34598",
+        "cn_deathNum": "723",
+        "cn_cureNum": "2052",
+        "cn_susNum": "27657",
+        "cn_deathRate": "2.09",
+        "cn_cureRate": "5.93",
+        "is_show": "true",
+        "wjw_susNum": "4214",
+        "wuhan_conNum": "13603",
+        "wuhan_deathNum": "545",
+        "wuhan_cureNum": "698",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.06",
+        "cn_conNum": "31211",
+        "cn_deathNum": "637",
+        "cn_cureNum": "1542",
+        "cn_susNum": "26359",
+        "cn_deathRate": "2.04",
+        "cn_cureRate": "4.94",
+        "is_show": "true",
+        "wjw_susNum": "4833",
+        "wuhan_conNum": "11618",
+        "wuhan_deathNum": "478",
+        "wuhan_cureNum": "459",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.05",
+        "cn_conNum": "28060",
+        "cn_deathNum": "564",
+        "cn_cureNum": "1153",
+        "cn_susNum": "24702",
+        "cn_deathRate": "2.01",
+        "cn_cureRate": "4.11",
+        "is_show": "true",
+        "wjw_susNum": "5328",
+        "wuhan_conNum": "10117",
+        "wuhan_deathNum": "414",
+        "wuhan_cureNum": "431",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.04",
+        "cn_conNum": "24363",
+        "cn_deathNum": "491",
+        "cn_cureNum": "892",
+        "cn_susNum": "23260",
+        "cn_deathRate": "2.02",
+        "cn_cureRate": "3.66",
+        "is_show": "true",
+        "wjw_susNum": "3971",
+        "wuhan_conNum": "8351",
+        "wuhan_deathNum": "362",
+        "wuhan_cureNum": "368",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.03",
+        "cn_conNum": "20471",
+        "cn_deathNum": "425",
+        "cn_cureNum": "632",
+        "cn_susNum": "23214",
+        "cn_deathRate": "2.08",
+        "cn_cureRate": "3.09",
+        "is_show": "true",
+        "wjw_susNum": "5072",
+        "wuhan_conNum": "6384",
+        "wuhan_deathNum": "313",
+        "wuhan_cureNum": "317",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.02",
+        "cn_conNum": "17238",
+        "cn_deathNum": "361",
+        "cn_cureNum": "475",
+        "cn_susNum": "21558",
+        "cn_deathRate": "2.09",
+        "cn_cureRate": "2.76",
+        "is_show": "true",
+        "wjw_susNum": "5173",
+        "wuhan_conNum": "5142",
+        "wuhan_deathNum": "265",
+        "wuhan_cureNum": "215",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "02.01",
+        "cn_conNum": "14411",
+        "cn_deathNum": "304",
+        "cn_cureNum": "328",
+        "cn_susNum": "19544",
+        "cn_deathRate": "2.11",
+        "cn_cureRate": "2.28",
+        "is_show": "true",
+        "wjw_susNum": "4562",
+        "wuhan_conNum": "4109",
+        "wuhan_deathNum": "224",
+        "wuhan_cureNum": "171",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.31",
+        "cn_conNum": "11821",
+        "cn_deathNum": "259",
+        "cn_cureNum": "243",
+        "cn_susNum": "17988",
+        "cn_deathRate": "2.19",
+        "cn_cureRate": "2.06",
+        "is_show": "true",
+        "wjw_susNum": "5019",
+        "wuhan_conNum": "3215",
+        "wuhan_deathNum": "192",
+        "wuhan_cureNum": "139",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.30",
+        "cn_conNum": "9720",
+        "cn_deathNum": "213",
+        "cn_cureNum": "171",
+        "cn_susNum": "15238",
+        "cn_deathRate": "2.19",
+        "cn_cureRate": "1.76",
+        "is_show": "true",
+        "wjw_susNum": "4812",
+        "wuhan_conNum": "2639",
+        "wuhan_deathNum": "159",
+        "wuhan_cureNum": "103",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.29",
+        "cn_conNum": "7736",
+        "cn_deathNum": "170",
+        "cn_cureNum": "124",
+        "cn_susNum": "12167",
+        "cn_deathRate": "2.2",
+        "cn_cureRate": "1.6",
+        "is_show": "true",
+        "wjw_susNum": "4148",
+        "wuhan_conNum": "2261",
+        "wuhan_deathNum": "129",
+        "wuhan_cureNum": "82",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.28",
+        "cn_conNum": "5974",
+        "cn_deathNum": "132",
+        "cn_cureNum": "103",
+        "cn_susNum": "9239",
+        "cn_deathRate": "2.21",
+        "cn_cureRate": "1.72",
+        "is_show": "true",
+        "wjw_susNum": "3248",
+        "wuhan_conNum": "1905",
+        "wuhan_deathNum": "104",
+        "wuhan_cureNum": "75",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.27",
+        "cn_conNum": "4515",
+        "cn_deathNum": "106",
+        "cn_cureNum": "60",
+        "cn_susNum": "6973",
+        "cn_deathRate": "2.35",
+        "cn_cureRate": "1.33",
+        "is_show": "true",
+        "wjw_susNum": "2077",
+        "wuhan_conNum": "1590",
+        "wuhan_deathNum": "85",
+        "wuhan_cureNum": "42",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.26",
+        "cn_conNum": "2744",
+        "cn_deathNum": "80",
+        "cn_cureNum": "51",
+        "cn_susNum": "5794",
+        "cn_deathRate": "2.92",
+        "cn_cureRate": "1.86",
+        "is_show": "true",
+        "wjw_susNum": "3806",
+        "wuhan_conNum": "698",
+        "wuhan_deathNum": "63",
+        "wuhan_cureNum": "42",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.25",
+        "cn_conNum": "1975",
+        "cn_deathNum": "56",
+        "cn_cureNum": "49",
+        "cn_susNum": "2684",
+        "cn_deathRate": "2.84",
+        "cn_cureRate": "2.48",
+        "is_show": "true",
+        "wjw_susNum": "1309",
+        "wuhan_conNum": "618",
+        "wuhan_deathNum": "45",
+        "wuhan_cureNum": "40",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.24",
+        "cn_conNum": "1287",
+        "cn_deathNum": "41",
+        "cn_cureNum": "38",
+        "cn_susNum": "1965",
+        "cn_deathRate": "3.19",
+        "cn_cureRate": "2.95",
+        "is_show": "true",
+        "wjw_susNum": "680",
+        "wuhan_conNum": "572",
+        "wuhan_deathNum": "38",
+        "wuhan_cureNum": "32",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.23",
+        "cn_conNum": "830",
+        "cn_deathNum": "25",
+        "cn_cureNum": "34",
+        "cn_susNum": "1072",
+        "cn_deathRate": "3.01",
+        "cn_cureRate": "4.1",
+        "is_show": "true",
+        "wjw_susNum": "257",
+        "wuhan_conNum": "495",
+        "wuhan_deathNum": "7",
+        "wuhan_cureNum": "30",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.22",
+        "cn_conNum": "571",
+        "cn_deathNum": "17",
+        "cn_cureNum": "30",
+        "cn_susNum": "348",
+        "cn_deathRate": "2.98",
+        "cn_cureRate": "5.25",
+        "is_show": "true",
+        "wjw_susNum": "257",
+        "wuhan_conNum": "365",
+        "wuhan_deathNum": "7",
+        "wuhan_cureNum": "30",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.21",
+        "cn_conNum": "440",
+        "cn_deathNum": "9",
+        "cn_cureNum": "25",
+        "cn_susNum": "91",
+        "cn_deathRate": "2.05",
+        "cn_cureRate": "5.68",
+        "is_show": "true",
+        "wjw_susNum": "91",
+        "wuhan_conNum": "303",
+        "wuhan_deathNum": "7",
+        "wuhan_cureNum": "25",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.20",
+        "cn_conNum": "258",
+        "cn_deathNum": "6",
+        "cn_cureNum": "25",
+        "cn_susNum": "54",
+        "cn_deathRate": "2.33",
+        "cn_cureRate": "9.69",
+        "is_show": "true",
+        "wjw_susNum": "54",
+        "wuhan_conNum": "258",
+        "wuhan_deathNum": "6",
+        "wuhan_cureNum": "25",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.19",
+        "cn_conNum": "198",
+        "cn_deathNum": "4",
+        "cn_cureNum": "25",
+        "cn_susNum": null,
+        "cn_deathRate": "2.02",
+        "cn_cureRate": "12.63",
+        "is_show": "true",
+        "wjw_susNum": null,
+        "wuhan_conNum": "198",
+        "wuhan_deathNum": "4",
+        "wuhan_cureNum": "25",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.18",
+        "cn_conNum": "121",
+        "cn_deathNum": "3",
+        "cn_cureNum": "24",
+        "cn_susNum": null,
+        "cn_deathRate": "2.48",
+        "cn_cureRate": "19.83",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "121",
+        "wuhan_deathNum": "3",
+        "wuhan_cureNum": "24",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.17",
+        "cn_conNum": "62",
+        "cn_deathNum": "2",
+        "cn_cureNum": "19",
+        "cn_susNum": null,
+        "cn_deathRate": "3.23",
+        "cn_cureRate": "30.65",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "62",
+        "wuhan_deathNum": "2",
+        "wuhan_cureNum": "19",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.16",
+        "cn_conNum": "45",
+        "cn_deathNum": "2",
+        "cn_cureNum": "7",
+        "cn_susNum": null,
+        "cn_deathRate": "4.44",
+        "cn_cureRate": "15.56",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "45",
+        "wuhan_deathNum": "2",
+        "wuhan_cureNum": "7",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.15",
+        "cn_conNum": "41",
+        "cn_deathNum": "1",
+        "cn_cureNum": "7",
+        "cn_susNum": null,
+        "cn_deathRate": "2.44",
+        "cn_cureRate": "17.07",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "41",
+        "wuhan_deathNum": "1",
+        "wuhan_cureNum": "7",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.14",
+        "cn_conNum": "41",
+        "cn_deathNum": "1",
+        "cn_cureNum": "7",
+        "cn_susNum": null,
+        "cn_deathRate": "2.44",
+        "cn_cureRate": "17.07",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "41",
+        "wuhan_deathNum": "1",
+        "wuhan_cureNum": "7",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.13",
+        "cn_conNum": "41",
+        "cn_deathNum": "1",
+        "cn_cureNum": "7",
+        "cn_susNum": null,
+        "cn_deathRate": "2.44",
+        "cn_cureRate": "17.07",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "41",
+        "wuhan_deathNum": "1",
+        "wuhan_cureNum": "7",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.12",
+        "cn_conNum": "41",
+        "cn_deathNum": "1",
+        "cn_cureNum": "6",
+        "cn_susNum": null,
+        "cn_deathRate": "2.44",
+        "cn_cureRate": "14.63",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "41",
+        "wuhan_deathNum": "1",
+        "wuhan_cureNum": "6",
+        "wuhan_susNum": null
+      },
+      {
+        "date": "01.11",
+        "cn_conNum": "41",
+        "cn_deathNum": "1",
+        "cn_cureNum": "2",
+        "cn_susNum": null,
+        "cn_deathRate": "2.44",
+        "cn_cureRate": "4.88",
+        "is_show": "false",
+        "wjw_susNum": null,
+        "wuhan_conNum": "41",
+        "wuhan_deathNum": "1",
+        "wuhan_cureNum": "2",
+        "wuhan_susNum": null
+      }
+    ],
+    "worldlist": [
+      {
+        "name": "中国",
+        "value": "74279",
+        "susNum": "5248",
+        "deathNum": "2006",
+        "cureNum": "14387"
+      },
+      {
+        "name": "日本",
+        "value": "620",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "13"
+      },
+      {
+        "name": "新加坡",
+        "value": "81",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "29"
+      },
+      {
+        "name": "泰国",
+        "value": "35",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "15"
+      },
+      {
+        "name": "德国",
+        "value": "16",
+        "susNum": "3",
+        "deathNum": "0",
+        "cureNum": "9"
+      },
+      {
+        "name": "阿联酋",
+        "value": "9",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "4"
+      },
+      {
+        "name": "越南",
+        "value": "16",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "9"
+      },
+      {
+        "name": "澳大利亚",
+        "value": "15",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "5"
+      },
+      {
+        "name": "韩国",
+        "value": "51",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "16"
+      },
+      {
+        "name": "美国",
+        "value": "15",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "马来西亚",
+        "value": "22",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "15"
+      },
+      {
+        "name": "比利时",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "西班牙",
+        "value": "2",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "俄罗斯",
+        "value": "2",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "2"
+      },
+      {
+        "name": "柬埔寨",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "印度",
+        "value": "3",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "3"
+      },
+      {
+        "name": "斯里兰卡",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "菲律宾",
+        "value": "3",
+        "susNum": "31",
+        "deathNum": "1",
+        "cureNum": "1"
+      },
+      {
+        "name": "墨西哥",
+        "value": "0",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "巴西",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "哥伦比亚",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "英国",
+        "value": "9",
+        "susNum": "5",
+        "deathNum": "0",
+        "cureNum": "8"
+      },
+      {
+        "name": "意大利",
+        "value": "3",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "加拿大",
+        "value": "8",
+        "susNum": "9",
+        "deathNum": "0",
+        "cureNum": "2"
+      },
+      {
+        "name": "芬兰",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "1"
+      },
+      {
+        "name": "尼泊尔",
+        "value": "1",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "法国",
+        "value": "12",
+        "susNum": "0",
+        "deathNum": "1",
+        "cureNum": "4"
+      },
+      {
+        "name": "科特迪瓦",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "瑞士",
+        "value": "0",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "以色列",
+        "value": "0",
+        "susNum": "2",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "厄瓜多尔",
+        "value": "0",
+        "susNum": "1",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "瑞典",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      },
+      {
+        "name": "埃及",
+        "value": "1",
+        "susNum": "0",
+        "deathNum": "0",
+        "cureNum": "0"
+      }
+    ],
+    "add_daily": {
+      "addcon": 1754,
+      "addsus": 0,
+      "adddeath": 139,
+      "addcure": 2174,
+      "wjw_addsus": 1185
+    }
+  }
+}
