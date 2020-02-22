@@ -19,7 +19,8 @@ headers = {
 }
 json_file = 'data_sina.json'
 history_xlsx = 'history.xlsx'
-province_xlsx = 'province.xlsx'
+province_by_stillnum_xlsx = 'province_by_stillnum.xlsx'
+province_by_curerate_xlsx = 'province_by_curerate.xlsx'
 city_xlsx = 'city.xlsx'
 province_name = ''
 # '陕西' 的 province_ename = 'shanxis'
@@ -44,19 +45,18 @@ common_province_pieces = [
 ]
 serious_province_pieces = [
     {"min": 10001, "color": "#70161d"},
-    {"min": 1000, "max": 10000, "color": "#cb2a2f"},
+    {"min": 1001, "max": 10000, "color": "#cb2a2f"},
     {"min": 501, "max": 1000, "color": "#e55a4e"},
     {"min": 11, "max": 500, "color": "#f59e83"},
     {"min": 1, "max": 10, "color": "#fdebcf"}
 ]
-autonomous_prefecture = []
 
 # get china_total & province_total as Map's subtitle
-def get_CNtotal_Prototal(data):
+def get_CNtotal_PROtotal(data):
     global china_total
-    china_total = "确诊:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(data["data"]["gntotal"],
-                                                data["data"]["sustotal"], data["data"]["curetotal"],
-                                                data["data"]["deathtotal"], data["data"]["times"])
+    china_total = "确诊:{}  仍存:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(data["data"]["gntotal"],
+        data["data"]["gntotal"]-data["data"]["curetotal"]-data["data"]["deathtotal"],
+        data["data"]["sustotal"], data["data"]["curetotal"],data["data"]["deathtotal"], data["data"]["times"])
     province_json_data = ""
     for x in data["data"]["list"]:
         if x["name"] == province_name:
@@ -64,9 +64,9 @@ def get_CNtotal_Prototal(data):
     if len(province_json_data) == 0:
         print('没有这个省：'+province_name+' ,请您仔细检查！！！')
     global province_total
-    province_total = "确诊:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(province_json_data["value"],
-                                                province_json_data["susNum"], province_json_data["cureNum"],
-                                                province_json_data["deathNum"], data["data"]["times"])
+    province_total = "确诊:{}  仍存:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(province_json_data["value"],
+        int(province_json_data["value"])-int(province_json_data["cureNum"])-int(province_json_data["deathNum"]),
+        province_json_data["susNum"], province_json_data["cureNum"],province_json_data["deathNum"], data["data"]["times"])
     # print(china_total)
     # print(province_total)
 
@@ -78,7 +78,7 @@ def get_URL():
         with open(json_file, 'w', encoding='utf-8') as fi:
             json.dump(response_data, fi, indent=2, ensure_ascii=False)
             print('JSON 数据已写入 '+json_file+' 文件')
-        get_CNtotal_Prototal(response_data)
+        get_CNtotal_PROtotal(response_data)
         print('通过 URL 获取数据完成')
         return response_data
     except BaseException as err:
@@ -96,7 +96,7 @@ def get_data():
         if (delta_update_time < delta):
             fi = open(json_file,'r',encoding='utf-8')
             json_data = json.load(fi)
-            get_CNtotal_Prototal(json_data)
+            get_CNtotal_PROtotal(json_data)
             print('通过本地 JSON 文件获取数据完成')
             return json_data
         else:
@@ -106,12 +106,22 @@ def get_data():
 
 # calculate still ill number & insert into specified column of dataframe 
 def insert_stillNum(data,insert_place):
-    data['conNum']=data['conNum'].astype(int)
-    data['deathNum']=data['deathNum'].astype(int)
-    data['cureNum']=data['cureNum'].astype(int)
-    data['stillNum']=data['conNum']-data['deathNum']-data['cureNum']
+    data['conNum'] = data['conNum'].astype(int)
+    data['deathNum'] = data['deathNum'].astype(int)
+    data['cureNum'] = data['cureNum'].astype(int)
+    data['stillNum'] = data['conNum'] - data['deathNum'] - data['cureNum']
     cols = list(data)
     cols.insert(insert_place,cols.pop(cols.index('stillNum')))
+    data = data.loc[:,cols]
+    return data
+
+# calculate cured rate & insert into specified column of dataframe 
+def insert_cureRate(data,insert_place):
+    data['conNum'] = data['conNum'].astype(int)
+    data['cureNum'] = data['cureNum'].astype(int)
+    data['cureRate'] = data['cureNum'] / data['conNum']
+    cols = list(data)
+    cols.insert(insert_place,cols.pop(cols.index('cureRate')))
     data = data.loc[:,cols]
     return data
 
@@ -191,8 +201,14 @@ if __name__ == '__main__':
     # na_position='first' means sorting NaN in first , 'last'  means in last
     province_data.sort_values(by=['stillNum'],ascending=False,inplace=True,na_position='first')
     province_data.reset_index(drop=True, inplace=True)
-    province_data.to_excel(province_xlsx)
-    print('写入 '+province_xlsx+' 文件完成')   
+    province_data.to_excel(province_by_stillnum_xlsx)
+    print('写入 '+province_by_stillnum_xlsx+' 文件完成')   
+    # sort by cure rate excel, insert into behind of last column
+    province_data = insert_cureRate(province_data,province_data.shape[1])
+    province_data.sort_values(by=['cureRate'],ascending=False,inplace=True,na_position='first')
+    province_data.reset_index(drop=True, inplace=True)
+    province_data.to_excel(province_by_curerate_xlsx)
+    print('写入 '+province_by_curerate_xlsx+' 文件完成')   
 
     # 3.Province's Cities to Excel
     province_list = test_dic['data']['list']
