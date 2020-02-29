@@ -22,13 +22,16 @@ history_xlsx = 'history.xlsx'
 province_by_stillnum_xlsx = 'province_by_stillnum.xlsx'
 province_by_curerate_xlsx = 'province_by_curerate.xlsx'
 city_xlsx = 'city.xlsx'
+world_by_stillnum_xlsx = 'world_by_stillnum.xlsx'
 province_name = ''
 # '陕西' 的 province_ename = 'shanxis'
 # province_ename = 'guangdong'
 China_province_Map = 'China_province_Map.html'
 province_city_Map = 'province_city_Map.html'
+world_country_Map = 'world_country_Map.html'
 china_total = ''
 province_total = ''
+world_total = ''
 china_pieces = [
     {"min": 1001, "color": "#70161d"},
     {"min": 501, "max": 1000, "color": "#cb2a2f"},
@@ -55,8 +58,9 @@ serious_province_pieces = [
 def get_CNtotal_PROtotal(data):
     global china_total
     china_total = "确诊:{}  仍存:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(data["data"]["gntotal"],
-        data["data"]["gntotal"]-data["data"]["curetotal"]-data["data"]["deathtotal"],
+        int(data["data"]["gntotal"])-int(data["data"]["curetotal"])-int(data["data"]["deathtotal"]),
         data["data"]["sustotal"], data["data"]["curetotal"],data["data"]["deathtotal"], data["data"]["times"])
+
     province_json_data = ""
     for x in data["data"]["list"]:
         if x["name"] == province_name:
@@ -67,6 +71,21 @@ def get_CNtotal_PROtotal(data):
     province_total = "确诊:{}  仍存:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(province_json_data["value"],
         int(province_json_data["value"])-int(province_json_data["cureNum"])-int(province_json_data["deathNum"]),
         province_json_data["susNum"], province_json_data["cureNum"],province_json_data["deathNum"], data["data"]["times"])
+
+    world_value = 0
+    world_susNum = 0
+    world_cureNum = 0
+    world_deathNum = 0
+    world_stillNum = 0
+    for x in data["data"]["worldlist"]:
+        world_value += int(x["value"])
+        world_susNum += int(x["susNum"])
+        world_cureNum += int(x["cureNum"])
+        world_deathNum += int(x["deathNum"])
+    world_stillNum = world_value - world_cureNum - world_deathNum
+    global world_total
+    world_total = "确诊:{}  仍存:{}  疑似:{}  治愈:{}  死亡:{}  更新日期:{}".format(world_value,world_stillNum,
+        world_susNum,world_cureNum,world_deathNum,data["data"]["times"])
     # print(china_total)
     # print(province_total)
 
@@ -125,7 +144,23 @@ def insert_cureRate(data,insert_place):
     data = data.loc[:,cols]
     return data
 
-# draw map fun
+# insert country ename 
+def insert_ename(data,insert_place):
+    data['name'] = data['name']
+    # print(type(data['name']))
+    ename = []
+    fi = open('country_ename.json','r',encoding='utf-8')
+    json_data = json.load(fi)
+    for x in data['name']:
+        ename.append(json_data[x])
+    data['ename'] = pandas.Series(ename)
+    # print(type(data['ename']))
+    cols = list(data)
+    cols.insert(insert_place,cols.pop(cols.index('ename')))
+    data = data.loc[:,cols]
+    return data
+
+# draw map function
 # lists: including mapName & sillNum 
 # out_path: output HTML path 
 # title: as page_title, map_title 
@@ -135,7 +170,12 @@ def insert_cureRate(data,insert_place):
 def draw_Map(lists,out_path,title,area_total,maptype,area_pieces):
     name = list(lists.keys())
     values = list(lists.values())
-    click_title = '省份' if maptype=='china' else '城市'
+    if maptype == 'world':
+        click_title = '国家'
+    elif maptype=='china':
+        click_title = '省份'
+    else :
+        click_title = '城市'
     
         
     # 链式调用
@@ -145,9 +185,9 @@ def draw_Map(lists,out_path,title,area_total,maptype,area_pieces):
         # 在地图中插入数据，使用中国地图，隐藏标记
         .add("仍存", [list(z) for z in zip(name, values)], maptype, is_map_symbol_show=True)
 
-        # 设置坐标属性，显示省份名
+        # 设置坐标属性，True则全国显示省份名，全省显示城市名，全球显示国家名
         .set_series_opts(
-            label_opts=opts.LabelOpts(is_show=True)
+            label_opts=opts.LabelOpts(is_show=False)
         )
 
         # 设置全局属性
@@ -232,6 +272,25 @@ if __name__ == '__main__':
     print(city_distribution)
     province_pieces = common_province_pieces if province_name != '湖北' else serious_province_pieces
     draw_Map(city_distribution,province_name+'_'+province_city_Map,province_name+"地区",province_total,province_name,province_pieces)
+
+    # 6.Countries to Excel
+    world_list = test_dic['data']['worldlist']
+    world_data = pandas.json_normalize(world_list)
+    # delete column 'citycode' because this column data is unnecessary
+    world_data.drop(columns=['citycode'],inplace=True)
+    world_data.rename(columns={'value':'conNum'},inplace=True)
+    world_data = insert_stillNum(world_data,1)
+    world_data = insert_ename(world_data,1)
+    # na_position='first' means sorting NaN in first , 'last'  means in last
+    world_data.sort_values(by=['stillNum'],ascending=False,inplace=True,na_position='first')
+    world_data.reset_index(drop=True, inplace=True)
+    world_data.to_excel(world_by_stillnum_xlsx)
+    print('写入 '+world_by_stillnum_xlsx+' 文件完成')  
+
+    # 7.Get Countries dictionary & draw Countries map in World map
+    country_distribution = dict(zip(world_data.ename,world_data.stillNum))
+    print(country_distribution)
+    draw_Map(country_distribution,world_country_Map,"全世界地区",world_total,'world',serious_province_pieces)
 
 # (1)json.dumps()  Python数据类型列表进行json格式的编码（字典 → 字符串）
 # (2)json.loads()  json格式数据转换为字典（字符串 → 字典）

@@ -1,18 +1,29 @@
 # Python 爬取"新型冠状病毒"数据
 
+本程序必须文件： `main.py`, `country_ename.json`
+
 直接运行 `main.py` 文件即可
 
 ```bash
 python main.py
 ```
 
+世界地图：https://allenem.github.io/PyFluMap/world_country_Map.html
+
 全国地图：https://allenem.github.io/PyFluMap/China_province_Map.html
 
 湖北地图：https://allenem.github.io/PyFluMap/湖北_province_city_Map.html
 
+广东地图：https://allenem.github.io/PyFluMap/广东_province_city_Map.html
+
 甘肃地图：https://allenem.github.io/PyFluMap/甘肃_province_city_Map.html
 
-OUTPUT1:
+---
+
+## 更新日期:截至2月19日17时31分
+
+OUTPUT1
+
 ```bash
 > python main.py
 本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
@@ -37,7 +48,9 @@ JSON 数据已写入 data_sina.json 文件
 确诊:91  疑似:0  治愈:62  死亡:2  更新日期:截至2月19日17时31分
 绘制 甘肃地区 疫情地图完成
 ```
-OUTPUT2:
+
+OUTPUT2
+
 ```bash
 > python main.py
 本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
@@ -61,7 +74,13 @@ OUTPUT2:
 确诊:61682  疑似:0  治愈:9237  死亡:1921  更新日期:截至2月19日17时31分
 绘制 湖北地区 疫情地图完成
 ```
-OUTPUT3:
+
+---
+
+## 更新日期:截至2月22日22时00分
+
+OUTPUT3
+
 ```bash
 > python main.py
 本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
@@ -87,7 +106,9 @@ OUTPUT3:
 确诊:91  仍存:13  疑似:0  治愈:76  死亡:2  更新日期:截至2月22日22时00分
 绘制 甘肃地区 疫情地图完成
 ```
-OUTPUT4:
+
+OUTPUT4
+
 ```bash
 > python main.py
 本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
@@ -112,4 +133,99 @@ OUTPUT4:
 {'武汉市': 36594, '孝感市': 2414, '黄冈市': 1396, '鄂州市': 950, '荆州市': 914, '随州市': 824, '襄阳市': 745, '宜昌市': 612, '荆门市': 581, '黄石市': 536, '咸宁市': 462, '十堰市': 418, '仙桃市': 321, '天门市': 283, '': 218, '恩施土家族苗族自治州': 131, '潜江市': 114, '神农架林区': 1}
 确诊:63454  仍存:47514  疑似:0  治愈:13690  死亡:2250  更新日期:截至2月22日22时00分
 绘制 湖北地区 疫情地图完成
+```
+
+---
+
+## 更新日期:截至2月29日20时30分
+
+OUTPUT5
+
+```bash
+>python main.py
+本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
+爬取的JSON数据，
+疫情历史数据Excel表格，
+全国各个省份疫情Excel表格，
+指定省份各个城市疫情Excel表格，
+全国疫情地图HTML文件，
+指定省份疫情地图HTML文件。
+
+请输入指定省份汉字（不包含‘市’‘省’字）：
+JSON 数据已写入 data_sina.json 文件
+通过 URL 获取数据完成
+写入 history.xlsx 文件完成
+写入 province_by_stillnum.xlsx 文件完成
+写入 province_by_curerate.xlsx 文件完成
+写入 广东_city.xlsx 文件完成
+{'青海': 0, '西藏': 0, '宁夏': 4, '河南': 81, '云南': 15, '甘肃': 7, '河北': 31, '安徽': 116, '海南': 16, '江西': 123, '上海': 47, '山西': 20, '陕西': 37, '浙江': 188, '湖南': 170, '江苏': 108, '福建': 53, '新疆': 11, '吉林': 17, '天津': 24, '澳门': 2, '辽宁': 25, '贵州': 32, '重庆': 148, '广东': 366, '广西': 74, '北京': 132, '内蒙 古': 26, '四川': 184, '黑龙江': 166, '山东': 332, '湖北': 34596, '香港': 62, '台湾': 29}
+确诊:79394  仍存:37242  疑似:1418  治愈:39314  死亡:2838  更新日期:截至2月29日20时30分
+绘制 中国地区 疫情地图完成
+{'深圳市': 115, '广州市': 97, '东莞市': 42, '佛山市': 37, '珠海市': 26, '江门市': 10, '中山市': 8, '湛江市': 5, '茂名市': 5, '肇庆市': 5, '梅州市': 4, '惠州市': 4, '汕头市': 3, '阳江市': 3, '揭阳市': 2, '韶关市': 1, '清远市': 0, '汕尾市': 0, '潮州市': 0, '河源市': 0}
+确诊:1349  仍存:366  疑似:0  治愈:976  死亡:7  更新日期:截至2月29日20时30分
+绘制 广东地区 疫情地图完成
+写入 world_by_stillnum.xlsx 文件完成
+{'China': 37242, 'South Korea': 3105, 'Italy': 930, 'Japan': 892, 'Iran': 427, 'United States': 62, 'Germany': 52, 'Kuwait': 45, 'France': 43, 'Singapore': 40, 'Spain': 39, 'Bahrain': 38, 'Australia': 20, 'United Arab Emirates': 16, 'Switzerland': 15, 'Thailand': 14, 'Sweden': 12, 'Canada': 12, 'Britain': 12, 'Malaysia': 10, 'Israel': 8, 'Iraq': 8, 'Norway': 7, 'Croatia': 5, 'Austria': 5, 'Oman': 5, 'Afghanistan': 4, 'Greece': 4, 'Lebanon': 3, 'Denmark': 3, 'Romania': 3, 'Mexico': 3, 'Georgia': 2, 'Finland': 2, 'Holand': 2, 'Pakistan': 2, 'North Macedonia': 1, 'Estonia': 1, 'Nigeria': 1, 'Lithuania': 1, 'New Zealand': 1, 'Belarus': 1, 'San Marino': 1, 'Sri Lanka': 1, 'Algeria': 1, 'Nepal': 1, 'Qatar': 1, 'Philippines': 1, 'Iceland': 1, 'Azerbaijan': 1, 'Brazil': 1, 'Monaco': 1, 'Egypt': 0, 'Cambodia': 0, 'Belgium': 0, 'Russia': 0, 'India': 0, 'Vietnam': 0}
+确诊:85770  仍存:43108  疑似:1435  治愈:39729  死亡:2933  更新日期:截至2月29日20时30分
+绘制 全世界地区 疫情地图完成
+```
+
+OUTPUT6
+
+```bash
+>python main.py
+本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
+爬取的JSON数据，
+疫情历史数据Excel表格，
+全国各个省份疫情Excel表格，
+指定省份各个城市疫情Excel表格，
+全国疫情地图HTML文件，
+指定省份疫情地图HTML文件。
+
+请输入指定省份汉字（不包含‘市’‘省’字）：甘肃
+通过本地 JSON 文件获取数据完成
+写入 history.xlsx 文件完成
+写入 province_by_stillnum.xlsx 文件完成
+写入 province_by_curerate.xlsx 文件完成
+写入 甘肃_city.xlsx 文件完成
+{'青海': 0, '西藏': 0, '宁夏': 4, '河南': 81, '云南': 15, '甘肃': 7, '河北': 31, '安徽': 116, '海南': 16, '江西': 123, '上海': 47, '山西': 20, '陕西': 37, '浙江': 188, '湖南': 170, '江苏': 108, '福建': 53, '新疆': 11, '吉林': 17, '天津': 24, '澳门': 2, '辽宁': 25, '贵州': 32, '重庆': 148, '广东': 366, '广西': 74, '北京': 132, '内蒙 古': 26, '四川': 184, '黑龙江': 166, '山东': 332, '湖北': 34596, '香港': 62, '台湾': 29}
+确诊:79394  仍存:37242  疑似:1418  治愈:39314  死亡:2838  更新日期:截至2月29日20时30分
+绘制 中国地区 疫情地图完成
+{'平凉市': 3, '兰州市': 2, '定西市': 1, '庆阳市': 1, '天水市': 0, '甘南藏族自治州': 0, '白银市': 0, '陇南市': 0, '临夏回族自治州': 0, '张掖市': 0, '金昌市': 0}
+确诊:91  仍存:7  疑似:0  治愈:82  死亡:2  更新日期:截至2月29日20时30分
+绘制 甘肃地区 疫情地图完成
+写入 world_by_stillnum.xlsx 文件完成
+{'China': 37242, 'South Korea': 3105, 'Italy': 930, 'Japan': 892, 'Iran': 427, 'United States': 62, 'Germany': 52, 'Kuwait': 45, 'France': 43, 'Singapore': 40, 'Spain': 39, 'Bahrain': 38, 'Australia': 20, 'United Arab Emirates': 16, 'Switzerland': 15, 'Thailand': 14, 'Sweden': 12, 'Canada': 12, 'Britain': 12, 'Malaysia': 10, 'Israel': 8, 'Iraq': 8, 'Norway': 7, 'Croatia': 5, 'Austria': 5, 'Oman': 5, 'Afghanistan': 4, 'Greece': 4, 'Lebanon': 3, 'Denmark': 3, 'Romania': 3, 'Mexico': 3, 'Georgia': 2, 'Finland': 2, 'Holand': 2, 'Pakistan': 2, 'North Macedonia': 1, 'Estonia': 1, 'Nigeria': 1, 'Lithuania': 1, 'New Zealand': 1, 'Belarus': 1, 'San Marino': 1, 'Sri Lanka': 1, 'Algeria': 1, 'Nepal': 1, 'Qatar': 1, 'Philippines': 1, 'Iceland': 1, 'Azerbaijan': 1, 'Brazil': 1, 'Monaco': 1, 'Egypt': 0, 'Cambodia': 0, 'Belgium': 0, 'Russia': 0, 'India': 0, 'Vietnam': 0}
+确诊:85770  仍存:43108  疑似:1435  治愈:39729  死亡:2933  更新日期:截至2月29日20时30分
+绘制 全世界地区 疫情地图完成
+```
+
+OUTPUT7
+
+```bash
+>python main.py
+本程序将会爬取最新的新浪新型冠状病毒疫情数据。输出：
+爬取的JSON数据，
+疫情历史数据Excel表格，
+全国各个省份疫情Excel表格，
+指定省份各个城市疫情Excel表格，
+全国疫情地图HTML文件，
+指定省份疫情地图HTML文件。
+
+请输入指定省份汉字（不包含‘市’‘省’字）：湖北
+通过本地 JSON 文件获取数据完成
+写入 history.xlsx 文件完成
+写入 province_by_stillnum.xlsx 文件完成
+写入 province_by_curerate.xlsx 文件完成
+写入 湖北_city.xlsx 文件完成
+{'青海': 0, '西藏': 0, '宁夏': 4, '河南': 81, '云南': 15, '甘肃': 7, '河北': 31, '安徽': 116, '海南': 16, '江西': 123, '上海': 47, '山西': 20, '陕西': 37, '浙江': 188, '湖南': 170, '江苏': 108, '福建': 53, '新疆': 11, '吉林': 17, '天津': 24, '澳门': 2, '辽宁': 25, '贵州': 32, '重庆': 148, '广东': 366, '广西': 74, '北京': 132, '内蒙 古': 26, '四川': 184, '黑龙江': 166, '山东': 332, '湖北': 34596, '香港': 62, '台湾': 29}
+确诊:79394  仍存:37242  疑似:1418  治愈:39314  死亡:2838  更新日期:截至2月29日20时30分
+绘制 中国地区 疫情地图完成
+{'武汉市': 28731, '孝感市': 1356, '黄冈市': 670, '鄂州市': 599, '荆州市': 568, '随州市': 470, '宜昌市': 437, '襄阳市': 340, '荆门市': 324, '黄石市': 291, '十堰市': 243, '咸宁市': 148, '仙桃市': 148, '天门市': 121, '潜江市': 82, '恩施土家族苗族自治州': 67, '神农架林区': 1}
+确诊:66337  仍存:34596  疑似:0  治愈:29014  死亡:2727  更新日期:截至2月29日20时30分
+绘制 湖北地区 疫情地图完成
+写入 world_by_stillnum.xlsx 文件完成
+{'China': 37242, 'South Korea': 3105, 'Italy': 930, 'Japan': 892, 'Iran': 427, 'United States': 62, 'Germany': 52, 'Kuwait': 45, 'France': 43, 'Singapore': 40, 'Spain': 39, 'Bahrain': 38, 'Australia': 20, 'United Arab Emirates': 16, 'Switzerland': 15, 'Thailand': 14, 'Sweden': 12, 'Canada': 12, 'Britain': 12, 'Malaysia': 10, 'Israel': 8, 'Iraq': 8, 'Norway': 7, 'Croatia': 5, 'Austria': 5, 'Oman': 5, 'Afghanistan': 4, 'Greece': 4, 'Lebanon': 3, 'Denmark': 3, 'Romania': 3, 'Mexico': 3, 'Georgia': 2, 'Finland': 2, 'Holand': 2, 'Pakistan': 2, 'North Macedonia': 1, 'Estonia': 1, 'Nigeria': 1, 'Lithuania': 1, 'New Zealand': 1, 'Belarus': 1, 'San Marino': 1, 'Sri Lanka': 1, 'Algeria': 1, 'Nepal': 1, 'Qatar': 1, 'Philippines': 1, 'Iceland': 1, 'Azerbaijan': 1, 'Brazil': 1, 'Monaco': 1, 'Egypt': 0, 'Cambodia': 0, 'Belgium': 0, 'Russia': 0, 'India': 0, 'Vietnam': 0}
+确诊:85770  仍存:43108  疑似:1435  治愈:39729  死亡:2933  更新日期:截至2月29日20时30分
+绘制 全世界地区 疫情地图完成
 ```
