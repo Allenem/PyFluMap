@@ -134,6 +134,17 @@ def insert_stillNum(data,insert_place):
     data = data.loc[:,cols]
     return data
 
+# calculate still ill number & insert into specified column of dataframe 
+def insert_stillNum2(data,insert_place):
+    data['value'] = data['value'].astype(int)
+    data['deathNum'] = data['deathNum'].astype(int)
+    data['cureNum'] = data['cureNum'].astype(int)
+    data['stillNum'] = data['value'] - data['deathNum'] - data['cureNum']
+    cols = list(data)
+    cols.insert(insert_place,cols.pop(cols.index('stillNum')))
+    data = data.loc[:,cols]
+    return data
+
 # calculate cured rate & insert into specified column of dataframe 
 def insert_cureRate(data,insert_place):
     data['conNum'] = data['conNum'].astype(int)
@@ -152,7 +163,10 @@ def insert_ename(data,insert_place):
     fi = open('country_ename.json','r',encoding='utf-8')
     json_data = json.load(fi)
     for x in data['name']:
-        ename.append(json_data[x])
+        if x != '钻石公主号' and x != '':
+            ename.append(json_data[x])
+        else:
+            ename.append('')
     data['ename'] = pandas.Series(ename)
     # print(type(data['ename']))
     cols = list(data)
@@ -278,8 +292,9 @@ if __name__ == '__main__':
     world_data = pandas.json_normalize(world_list)
     # delete column 'citycode' because this column data is unnecessary
     world_data.drop(columns=['citycode'],inplace=True)
-    world_data.rename(columns={'value':'conNum'},inplace=True)
-    world_data = insert_stillNum(world_data,1)
+    # world_data.rename(columns={'value':'conNum'},inplace=True)
+    # world_data = insert_stillNum(world_data,1)
+    world_data = insert_stillNum2(world_data,1)
     world_data = insert_ename(world_data,1)
     # na_position='first' means sorting NaN in first , 'last'  means in last
     world_data.sort_values(by=['stillNum'],ascending=False,inplace=True,na_position='first')
